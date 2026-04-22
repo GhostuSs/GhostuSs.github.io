@@ -773,8 +773,26 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
   .section-head { flex-direction: column; align-items: flex-start; gap: 4px; }
 }
 
+/* =========================================================
+   SCROLL-REVEAL ANIMATIONS
+   ========================================================= */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+[data-anim] { opacity: 0; }
+
+[data-anim].in-view {
+  animation: fadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: var(--anim-delay, 0ms);
+}
+
+.hero[data-anim].in-view { animation-duration: 0.65s; }
+
 /* Motion preferences */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
+  [data-anim] { opacity: 1; }
 }

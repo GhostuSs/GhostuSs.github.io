@@ -20,6 +20,9 @@
     data: null
   };
 
+  let animObs = null;
+  let firstRender = true;
+
   // ---------- HELPERS ----------
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -413,6 +416,51 @@
         }
       });
     });
+
+    // scroll-reveal
+    const skipVisible = !firstRender;
+    firstRender = false;
+    initAnimations(root, skipVisible);
+  }
+
+  // ---------- SCROLL-REVEAL ----------
+  function initAnimations(root, skipVisible) {
+    if (animObs) { animObs.disconnect(); animObs = null; }
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in-view');
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.06, rootMargin: '0px 0px -20px 0px' });
+    animObs = obs;
+
+    function add(el, delay) {
+      if (!el) return;
+      el.dataset.anim = '1';
+      if (delay) el.style.setProperty('--anim-delay', delay + 'ms');
+      if (skipVisible) {
+        const r = el.getBoundingClientRect();
+        if (r.top < window.innerHeight && r.bottom > 0) { el.classList.add('in-view'); return; }
+      }
+      obs.observe(el);
+    }
+
+    add($('.hero', root));
+    $$('.section-head', root).forEach((h) => add(h));
+    $$('.about > p', root).forEach((el, i) => add(el, i * 80));
+    $$('.position-card > .position-item', root).forEach((el, i) => add(el, i * 70));
+    $$('.projects', root).forEach((container) => {
+      Array.from(container.children).forEach((el, i) => add(el, i * 70));
+    });
+    $$('.skills-grid > .skill-group', root).forEach((el, i) => add(el, i * 35));
+    $$('.ach-group', root).forEach((el, i) => add(el, i * 60));
+    $$('.edu-list > .edu-item', root).forEach((el, i) => add(el, i * 70));
+    $$('.course-list > li', root).forEach((el, i) => add(el, i * 50));
+    $$('.lang-list > li', root).forEach((el, i) => add(el, i * 60));
   }
 
   // ---------- LANG HANDLING ----------
