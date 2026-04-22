@@ -41,6 +41,19 @@
     return ICONS[name] || '';
   }
 
+  function highlightStats(str) {
+    if (str == null) return '';
+    return esc(str).replace(
+      /\b(v?\d[\d,]*(?:[./]\d+)*[+×%]?)/g,
+      '<strong class="stat">$1</strong>'
+    );
+  }
+
+  function bulletHtml(items) {
+    if (!items || !items.length) return '';
+    return `<ul class="bullets">${items.map((b) => `<li>${highlightStats(b)}</li>`).join('')}</ul>`;
+  }
+
   // ---------- RENDERERS ----------
   function renderHero(data) {
     const { header } = data;
@@ -130,9 +143,7 @@
         const metaRow = metaParts.length ? `<p class="exp-meta">${metaParts.join(' · ')}</p>` : '';
         const note = exp.note ? `<p class="exp-note">${esc(exp.note)}</p>` : '';
         const desc = exp.description ? `<p class="exp-desc">${esc(exp.description)}</p>` : '';
-        const generalBullets = exp.generalBullets && exp.generalBullets.length
-          ? `<ul class="bullets">${exp.generalBullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul>`
-          : '';
+        const generalBullets = bulletHtml(exp.generalBullets);
         const hasProjects = exp.projects && exp.projects.length;
         const projects = hasProjects ? renderProjects(exp.projects) : '';
         const expClass = hasProjects ? 'exp' : 'exp standalone-exp';
@@ -169,15 +180,11 @@
         if (p.period) head.push(`<span class="project-period">${esc(p.period)}</span>`);
 
         const stack = p.stack ? `<p class="project-stack">${esc(p.stack)}</p>` : '';
-        const bullets = p.bullets && p.bullets.length
-          ? `<ul class="bullets">${p.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul>`
-          : '';
-
         return `
           <div class="project">
             <div class="project-head">${head.join('')}</div>
             ${stack}
-            ${bullets}
+            ${bulletHtml(p.bullets)}
           </div>
         `;
       })
@@ -191,9 +198,6 @@
     const html = data.ownProducts
       .map((p) => {
         const desc = p.description ? `<p class="exp-desc">${esc(p.description)}</p>` : '';
-        const bullets = p.bullets && p.bullets.length
-          ? `<ul class="bullets">${p.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul>`
-          : '';
         return `
           <div class="project">
             <div class="project-head">
@@ -202,7 +206,7 @@
               <span class="project-period">${esc(p.period)}</span>
             </div>
             ${desc}
-            ${bullets}
+            ${bulletHtml(p.bullets)}
           </div>
         `;
       })
@@ -220,9 +224,6 @@
     if (!data.teaching || !data.teaching.length) return '';
     const html = data.teaching
       .map((t) => {
-        const bullets = t.bullets && t.bullets.length
-          ? `<ul class="bullets">${t.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul>`
-          : '';
         return `
           <div class="project">
             <div class="project-head">
@@ -230,7 +231,7 @@
               <span class="project-role">${esc(t.role)}</span>
               <span class="project-period">${esc(t.period)}</span>
             </div>
-            ${bullets}
+            ${bulletHtml(t.bullets)}
           </div>
         `;
       })
@@ -252,7 +253,7 @@
           <div class="ach-group">
             <h3 class="ach-label">${esc(g.label)}</h3>
             <ul class="ach-list">
-              ${g.items.map((i) => `<li>${esc(i)}</li>`).join('')}
+              ${g.items.map((i) => `<li>${highlightStats(i)}</li>`).join('')}
             </ul>
           </div>
         `

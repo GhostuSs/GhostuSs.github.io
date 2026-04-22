@@ -461,7 +461,7 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 
 .bullets li {
   position: relative;
-  padding-left: 18px;
+  padding-left: 20px;
   font-size: 0.9375rem;
   line-height: 1.6;
   margin-bottom: 6px;
@@ -469,14 +469,22 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 }
 
 .bullets li::before {
-  content: "";
+  content: "—";
   position: absolute;
-  left: 2px;
-  top: 10px;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--text-subtle);
+  left: 0;
+  top: 0;
+  line-height: inherit;
+  font-size: 0.88em;
+  color: var(--text-muted);
+}
+
+/* inline stat highlight (numbers in bullets) */
+.stat {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.875em;
+  color: var(--text);
+  letter-spacing: -0.01em;
 }
 
 .bullets li:last-child { margin-bottom: 0; }
