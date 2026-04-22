@@ -42,8 +42,7 @@ window.CV_DATA_EN = {
     format: "Remote · Hybrid · Relocation considered"
   },
   about: [
-    "Flutter Developer with 4+ years at a single cross-functional unit inside Gazprom Neft. Author of 6+ mobile products in App Store, Google Play and RuStore — including a product with 2 Russian federal software copyrights (RosPatent) and listing in the Unified Register of Russian Software (Ministry of Digital Development). Published Flutter SDK on pub.dev. Combine engineering and project management on a key product of the team.",
-    "Working in an AI-augmented paradigm: Claude Code with custom .md skills, Figma MCP for design-to-code, Shannon for security auditing, Obsidian as a knowledge base, GSD (get-shit-done, OSS) for phase-based planning. Teaching Flutter at IT Hub College since January 2026 (23 students); mentored teams at IT Camp 2025 (Gazprom Neft × Sirius University) — one of them took the Grand Prix."
+    "Flutter Developer with 4+ years at a single cross-functional unit inside Gazprom Neft. Author of 6+ mobile products in App Store, Google Play and RuStore — including a product with 2 Russian federal software copyrights (RosPatent) and listing in the Unified Register of Russian Software (Ministry of Digital Development). Published Flutter SDK on pub.dev. Combine engineering and project management on a key product of the team."
   ],
   experience: [
     {
@@ -55,7 +54,6 @@ window.CV_DATA_EN = {
       description: "punklab is a cross-functional digital unit inside the Gazprom Neft Group, organized into 3 business units (Web / Products / Custom Development). Delivers products to Gazprom Neft group companies and the external market.",
       generalBullets: [
         "Joined as the 5th team member in 2022; unit scaled to 28 people — 5.6× growth over 4 years.",
-        "Flutter Developer in the mobile engineering team (3 Flutter engineers).",
         "Production releases in App Store, Google Play, RuStore across 5+ corporate products.",
         "Compliance-driven App Store publishing expertise — shipping products under parent-company operational constraints (rebranding, parallel developer accounts, feature substitution).",
         "Since 2025 — combined Developer + Project Manager roles on a key team product."
@@ -70,7 +68,7 @@ window.CV_DATA_EN = {
             "Obtained 2 RosPatent software copyrights (iOS + Android versions, 2025) — Russian federal state-issued IP registration.",
             "Product listed in the Unified Register of Russian Software (Ministry of Digital Development, 2025–2026).",
             "Finalist: REXA-2025 (Russian Employee Experience Awards — national award for digital employee experience & internal communications) and 'People of Progress' award.",
-            "Architecture: GetX → Provider → Clean Architecture migrations; combined Lead Developer and PM roles since 2025."
+            "Architecture: GetX → Provider → Clean Architecture migrations."
           ]
         },
         {
@@ -79,8 +77,7 @@ window.CV_DATA_EN = {
           stack: "Flutter Mobile + Flutter Web · PWA → Native migration",
           bullets: [
             "Migrated Flutter Web PWA to native mobile platforms (iOS + Android); published in App Store and Google Play.",
-            "Shipped features driving DAU and retention; refactored and hardened stability.",
-            "Owned technical requirements, documentation and cross-platform validation."
+            "Shipped features driving DAU and retention; refactored and hardened stability."
           ]
         },
         {
@@ -98,7 +95,6 @@ window.CV_DATA_EN = {
           role: "Lead Flutter Developer",
           stack: "Flutter · Clean Architecture",
           bullets: [
-            "Built the mobile application from scratch to client specifications.",
             "Designed the target architecture; executed GetX → Provider + Clean Architecture migration.",
             "Published in RuStore and App Store; offline-first with auto-sync.",
             "Coordinated web and backend teams across sprints; version 2.4.12 as of April 2026."
@@ -109,10 +105,9 @@ window.CV_DATA_EN = {
           role: "Solo Mobile Developer",
           stack: "Flutter",
           bullets: [
-            "Two mobile applications for a resort complex (one client, sequential products — returning customer).",
+            "2 apps for one client (Podvorye → Glamping); client returned for the second product.",
             "Full-cycle development and support, 2+ years in production without interventions.",
-            "Reduced build size by 30% through refactoring; migrated to latest Flutter.",
-            "Client returned for a second product (Glamping after Podvorye) — customer-satisfaction signal."
+            "Reduced build size by 30% through refactoring; migrated to latest Flutter."
           ]
         }
       ]
@@ -121,7 +116,7 @@ window.CV_DATA_EN = {
       company: "Parallel Freelance / Contract Development",
       role: "Senior Flutter Developer",
       period: "Mar 2024 — Present",
-      description: "In parallel with the main role, running contract projects and white-label builds as a self-employed developer. Publish select products to RuStore under my own developer account (IE Movchan M.I.).",
+      description: "Publish select products to RuStore under my own developer account (IE Movchan M.I.).",
       projects: [
         {
           name: "Surprise — FoodTech + E-commerce",
@@ -132,7 +127,7 @@ window.CV_DATA_EN = {
             "Mobile app for food delivery with a self-service kiosk mode for HoReCa terminals.",
             "Primary contributor, solo development (644 commits).",
             "Codebase: 58,000+ Dart LOC, 291 files, 9 screens, 25 use cases, Clean Architecture.",
-            "Built a separate kiosk-mode branch (main_kiosk2, 240 commits) for self-service terminals.",
+            "Separate kiosk-mode branch (main_kiosk2, 240 commits).",
             "Integrations: Alfa Pay SDK; Sberbank UPOS TSP payment terminal (research prototype in native Android Kotlin + AIDL IPC + EMV/TLV protocol analysis).",
             "iOS Native: Live Activities for real-time order tracking (Swift).",
             "Security audit of backend (Bagisto / Laravel) and mobile client via Shannon (OSS AI pentester) prior to launch."
@@ -146,9 +141,7 @@ window.CV_DATA_EN = {
           bullets: [
             "Mobile app for a chain of beauty salons: online booking, service catalogue, push notifications, loyalty.",
             "Owned the project end-to-end: from client brief to RuStore publication.",
-            "Team Lead + PM: assembled the team (QA, backend, UX/UI — 4 people), ran processes.",
-            "Primary contributor of the mobile application.",
-            "Stack: Custom BLoC (RxDart) + Provider, injectable DI, auto_route, Hive, Firebase Messaging, AppMetrica."
+            "Team Lead + PM: assembled the team (QA, backend, UX/UI — 4 people), ran processes."
           ]
         },
         {
@@ -158,7 +151,6 @@ window.CV_DATA_EN = {
           stack: "Flutter · Custom BLoC",
           bullets: [
             "Rework of a mobile app for a stretching-studio chain.",
-            "Code review, new architecture design, performance optimization.",
             "Migrated state management from Riverpod to a custom BLoC (per client request)."
           ]
         },
@@ -185,9 +177,7 @@ window.CV_DATA_EN = {
       description: "EdTech safety platform for educational institutions: SOS scenarios, preventive lessons, daily safety questions, training tests, push notifications. Team: 3 co-founders; I own the full technical implementation.",
       bullets: [
         "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend (AI-assisted), admin panel.",
-        "AI-augmented workflow: Claude Code with custom .md skills, Figma MCP for design-to-code, GSD (get-shit-done, OSS) for phase-based planning, Obsidian vault as knowledge base.",
-        "Integrations: Sentry, Firebase (Auth, FCM, Remote Config), OTP autofill, iOS Live Activities for alarms, payments.",
-        "Security audit via Shannon (OSS AI pentester) prior to launch.",
+        "Integrations: Sentry, Firebase (Auth, FCM, Remote Config), OTP autofill, iOS Live Activities for alarms, payments. Security audit via Shannon (OSS AI pentester) prior to launch.",
         "Pilot deployment at 2 educational institutions via TestFlight; App Store / Google Play production release — Q3 2026."
       ]
     }
@@ -199,7 +189,6 @@ window.CV_DATA_EN = {
       period: "Jan 2026 — Jul 2026",
       bullets: [
         "Flutter development course — 2 groups, 23 students total.",
-        "Saturday sessions, 2 classes each, Russian language.",
         "Designed course curriculum, materials and practical assignments."
       ]
     },
@@ -208,10 +197,8 @@ window.CV_DATA_EN = {
       role: "Mentor",
       period: "Aug 17–29, 2025 · on-site at Sirius",
       bullets: [
-        "Federal-level educational program for early-career IT specialists in Russia.",
         "Mentored 2 teams of 7 students each over 2 weeks — full cycle from case analysis to solution defense.",
-        "One of my teams won the Grand Prix of the event.",
-        "Received a letter of appreciation from A. S. Dumin, IT Director of Gazprom Neft."
+        "One of my teams won the Grand Prix of the event."
       ]
     }
   ],
@@ -258,11 +245,10 @@ window.CV_DATA_EN = {
     { group: "Payments / SDKs", items: ["RevenueCat", "Alfa Pay SDK", "YooKassa", "SberPay", "CloudPayments", "Tinkoff Pay"] },
     { group: "Push / Notifications", items: ["Firebase Cloud Messaging", "OneSignal", "flutter_local_notifications", "iOS Live Activities"] },
     { group: "Analytics / Observability", items: ["Firebase Analytics", "Firebase Crashlytics", "AppMetrica", "Amplitude", "Sentry"] },
-    { group: "CI/CD & DevTools", items: ["Codemagic", "GitHub Actions", "Bitbucket Pipelines", "flutter_lints"] },
+    { group: "CI/CD & DevTools", items: ["Codemagic", "GitHub Actions", "Bitbucket Pipelines"] },
     { group: "Testing", items: ["Unit & Widget tests (bloc_test, mocktail)", "AI-assisted TDD via Claude Code"] },
     { group: "Full-stack delivery (AI-assisted)", items: ["End-to-end product delivery including backend (FastAPI / Python) and admin panel"], note: "Not claiming senior backend expertise; focus on architecture-level product ownership" },
-    { group: "AI-Augmented Development", items: ["Claude Code + custom .md skills", "Figma MCP (design-to-code)", "Shannon (OSS AI pentester) for security auditing", "Obsidian Vault (knowledge base, AI context)", "GSD — get-shit-done (OSS framework for phase-based planning)"] },
-    { group: "Architectural Principles", items: ["SOLID", "DRY", "KISS", "Clean Architecture", "Repository Pattern", "Bridge Pattern"] }
+    { group: "AI-Augmented Development", items: ["Claude Code + custom .md skills", "Figma MCP (design-to-code)", "Shannon (OSS AI pentester) for security auditing", "Obsidian Vault (knowledge base, AI context)", "GSD — get-shit-done (OSS framework for phase-based planning)"] }
   ],
   education: {
     degrees: [
