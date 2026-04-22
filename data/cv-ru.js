@@ -1,22 +1,21 @@
 window.CV_DATA_RU = {
   meta: {
-    title: "Максим Мовчан — Lead Flutter Developer",
+    title: "Максим Мовчан — Flutter Developer",
     description: "Ведущий Flutter-разработчик, 4+ года в «Газпром нефти». 6+ продуктов в сторах, 2 свидетельства Роспатент, SDK на pub.dev. Преподаватель Flutter.",
     lang: "ru"
   },
   header: {
     name: "Мовчан Максим",
     surname: "Игоревич",
-    role: "Ведущий Flutter-разработчик",
-    tagline: "Lead Flutter Developer",
+    role: "Flutter-разработчик",
+    tagline: "Flutter Developer",
     location: "Санкт-Петербург · Удалённо / готов к релокации",
     contacts: [
       { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" },
       { label: "Email", value: "maks.makis@ya.ru", href: "mailto:maks.makis@ya.ru", icon: "email" },
       { label: "Телефон", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
-      { label: "LinkedIn", value: "maksim-movchan", href: "https://www.linkedin.com/in/maksim-movchan/", icon: "linkedin" },
-      { label: "pub.dev", value: "consta_analytics", href: "https://pub.dev/packages/consta_analytics", icon: "pubdev" }
+      { label: "LinkedIn", value: "Максим Мовчан", href: "https://www.linkedin.com/in/максим-мовчан-02aa40241/", icon: "linkedin" }
     ]
   },
   sections: {
@@ -30,31 +29,33 @@ window.CV_DATA_RU = {
     education: "Образование",
     languages: "Языки",
     additional: "Дополнительно",
-    print: "Сохранить PDF"
+    print: "Сохранить PDF",
+    revealHint: "Нажмите, чтобы раскрыть"
   },
   position: {
-    role: "Lead / Senior Flutter Developer",
-    roleDetails: "Mobile engineering · Product ownership · Technical leadership",
+    role: "Flutter Developer",
+    roleDetails: "Mobile engineering · Product ownership",
     salary: "от 380 000 ₽ net / мес",
     salaryAlt: "или эквивалент в валюте для международных офферов",
+    salaryHidden: true,
     type: "Полная занятость",
     format: "Удалённо, гибрид, релокация рассматривается"
   },
   about: [
-    "Ведущий Flutter-разработчик с 4+ годами продуктового опыта в одной команде внутри Группы «Газпром нефть». Автор 6+ мобильных продуктов в App Store, Google Play и RuStore — в том числе приложения с 2 свидетельствами Роспатент и записью в Едином реестре российского ПО (Минцифры). Автор Flutter SDK на pub.dev. Совмещаю разработку и проектный менеджмент на ключевом продукте команды.",
-    "Работаю в AI-augmented парадигме: Claude Code с кастомными .md skills, Figma MCP для design-to-code, Shannon для security-аудита, Obsidian как knowledge base. С января 2026 преподаю Flutter в IT Hub College (23 студента); в августе 2025 менторил команды на IT Camp 2025 (Газпром нефть × Сириус), одна из них взяла Гран-при."
+    "Flutter-разработчик с 4+ годами продуктового опыта в одной команде внутри Группы «Газпром нефть». Автор 6+ мобильных продуктов в App Store, Google Play и RuStore — в том числе приложения с 2 свидетельствами Роспатент и записью в Едином реестре российского ПО (Минцифры). Автор Flutter SDK на pub.dev. Совмещаю разработку и проектный менеджмент на ключевом продукте команды.",
+    "Работаю в AI-augmented парадигме: Claude Code с кастомными .md skills, Figma MCP для design-to-code, Shannon для security-аудита, Obsidian как knowledge base, GSD (get-shit-done) для фазового планирования. С января 2026 преподаю Flutter в IT Hub College (23 студента); в августе 2025 менторил команды на IT Camp 2025 (Газпром нефть × Сириус), одна из них взяла Гран-при."
   ],
   experience: [
     {
       company: "Группа компаний «Газпром нефть» · команда Панклаб",
-      role: "Ведущий Flutter-разработчик",
+      role: "Flutter-разработчик",
       period: "Февраль 2022 — настоящее время",
       duration: "4+ года",
       note: "Внутренний перевод: «Газпромнефть-Снабжение» → «Газпромнефть-Цифровые решения» в январе 2025; команда переехала целиком.",
       description: "Панклаб — сквозная digital-команда внутри Группы «Газпром нефть», организованная в 3 бизнес-юнита (Web / Продукты / Цифровой завод). Обслуживает все компании холдинга и внешний рынок.",
       generalBullets: [
         "Пришёл в команду 5-м в 2022; команда выросла до 28 человек — рост ×5.6 за 4 года.",
-        "Ведущий Flutter-разработчик в команде мобильной разработки.",
+        "Flutter-разработчик в команде мобильной разработки (3 Flutter-инженера).",
         "Продакшн-релизы в App Store, Google Play, RuStore для 5+ корпоративных продуктов.",
         "Compliance-driven App Store publishing expertise — публикация при операционных ограничениях материнской компании (дебрендинг, параллельные developer-accounts, подмена функционала).",
         "С 2025 — совмещение ролей разработчика и PM на ключевом продукте команды."
@@ -195,7 +196,7 @@ window.CV_DATA_RU = {
       description: "EdTech-платформа безопасности для образовательных учреждений: SOS-сценарии, профилактические уроки, ежедневные вопросы безопасности, тренировочные тесты, push-уведомления. Команда: 3 сооснователя; моя зона — полная техническая реализация.",
       bullets: [
         "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend (AI-assisted), админ-панель.",
-        "AI-augmented workflow: Claude Code с кастомными .md skills, Figma MCP для design-to-code, собственный GSD framework для фазового планирования, Obsidian vault для knowledge base.",
+        "AI-augmented workflow: Claude Code с кастомными .md skills, Figma MCP для design-to-code, GSD (get-shit-done, OSS) для фазового планирования, Obsidian vault для knowledge base.",
         "Интеграции: Sentry, Firebase (Auth, FCM, Remote Config), OTP-autofill, iOS Live Activities для тревог, платежи.",
         "Security-audit через Shannon (OSS AI-pentester) перед запуском.",
         "Запущена пилотная эксплуатация на 2 образовательных учреждениях через TestFlight; production-релиз в App Store / Google Play — Q3 2026."
@@ -271,7 +272,7 @@ window.CV_DATA_RU = {
     { group: "CI/CD & DevTools", items: ["Codemagic", "GitHub Actions", "Bitbucket Pipelines", "flutter_lints"] },
     { group: "Testing", items: ["Unit & Widget tests (bloc_test, mocktail)", "AI-assisted TDD via Claude Code"] },
     { group: "Full-stack delivery (AI-assisted)", items: ["End-to-end product delivery включая backend (FastAPI / Python) и admin panel"], note: "Без заявки на senior backend expertise; фокус на архитектурно-продуктовом ownership" },
-    { group: "AI-Augmented Development", items: ["Claude Code + кастомные .md skills", "Figma MCP (design-to-code)", "Shannon (OSS AI-pentester) для security-аудита", "Obsidian Vault (knowledge base, AI-context)", "GSD — собственный framework для фазового планирования"] },
+    { group: "AI-Augmented Development", items: ["Claude Code + кастомные .md skills", "Figma MCP (design-to-code)", "Shannon (OSS AI-pentester) для security-аудита", "Obsidian Vault (knowledge base, AI-context)", "GSD — get-shit-done (OSS framework для фазового планирования)"] },
     { group: "Архитектурные принципы", items: ["SOLID", "DRY", "KISS", "Clean Architecture", "Repository Pattern", "Bridge Pattern"] }
   ],
   education: {
@@ -285,6 +286,7 @@ window.CV_DATA_RU = {
       {
         institution: "Санкт-Петербургский университет технологий управления и экономики",
         degree: "Магистр · Экономика",
+        specialty: "Финансовый менеджмент",
         year: "2024"
       }
     ],

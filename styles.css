@@ -319,6 +319,43 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 }
 .about p:last-child { margin-bottom: 0; }
 
+/* SPOILER (Telegram-style blurred text, reveal on click) */
+.spoiler {
+  display: inline-block;
+  cursor: pointer;
+  filter: blur(7px);
+  transition: filter 0.25s ease, background 0.25s ease;
+  border-radius: 4px;
+  padding: 2px 8px;
+  background: color-mix(in srgb, var(--text) 10%, transparent);
+  user-select: none;
+  -webkit-user-select: none;
+  position: relative;
+  outline: none;
+}
+.spoiler:hover { filter: blur(5px); }
+.spoiler:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+.spoiler.revealed {
+  filter: blur(0);
+  background: transparent;
+  user-select: text;
+  -webkit-user-select: text;
+  padding: 0;
+  cursor: text;
+}
+.spoiler-hint {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--text-subtle);
+  margin-top: 4px;
+  letter-spacing: 0.02em;
+}
+.spoiler.revealed + .spoiler-hint { display: none; }
+
 /* POSITION card */
 .position-card {
   display: grid;
@@ -361,6 +398,21 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 }
 
 .exp:last-child { margin-bottom: 0; }
+
+/* Standalone experience (no inner projects) — wrap in same card look as projects */
+.exp.standalone-exp {
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elev);
+  transition: border-color 0.15s ease;
+}
+
+.exp.standalone-exp:hover { border-color: var(--border-strong); }
+
+.exp.standalone-exp .exp-head { margin-bottom: var(--gap-sm); }
+.exp.standalone-exp .exp-company { font-size: 1.0625rem; }
+.exp.standalone-exp .bullets li { font-size: 0.875rem; }
 
 .exp-head {
   margin-bottom: var(--gap-md);

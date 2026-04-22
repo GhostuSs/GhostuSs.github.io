@@ -1,22 +1,21 @@
 window.CV_DATA_EN = {
   meta: {
-    title: "Maksim Movchan — Lead Flutter Developer",
-    description: "Lead Flutter Developer with 4+ years at Gazprom Neft. 6+ live apps, 2 federal software copyrights, published pub.dev SDK. Mobile dev educator.",
+    title: "Maksim Movchan — Flutter Developer",
+    description: "Flutter Developer with 4+ years at Gazprom Neft. 6+ live apps, 2 federal software copyrights, published pub.dev SDK. Mobile dev educator.",
     lang: "en"
   },
   header: {
     name: "Maksim",
     surname: "Movchan",
-    role: "Lead Flutter Developer",
-    tagline: "Mobile Engineering · Product Ownership · Technical Leadership",
+    role: "Flutter Developer",
+    tagline: "Mobile Engineering · Product Ownership",
     location: "Saint Petersburg · Remote / open to relocation",
     contacts: [
       { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" },
       { label: "Email", value: "maks.makis@ya.ru", href: "mailto:maks.makis@ya.ru", icon: "email" },
       { label: "Phone", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
-      { label: "LinkedIn", value: "maksim-movchan", href: "https://www.linkedin.com/in/maksim-movchan/", icon: "linkedin" },
-      { label: "pub.dev", value: "consta_analytics", href: "https://pub.dev/packages/consta_analytics", icon: "pubdev" }
+      { label: "LinkedIn", value: "Maksim Movchan", href: "https://www.linkedin.com/in/максим-мовчан-02aa40241/", icon: "linkedin" }
     ]
   },
   sections: {
@@ -30,31 +29,33 @@ window.CV_DATA_EN = {
     education: "Education",
     languages: "Languages",
     additional: "Additional",
-    print: "Download PDF"
+    print: "Download PDF",
+    revealHint: "Click to reveal"
   },
   position: {
-    role: "Lead / Senior Flutter Developer",
-    roleDetails: "Mobile Engineering · Product Ownership · Technical Leadership",
+    role: "Flutter Developer",
+    roleDetails: "Mobile Engineering · Product Ownership",
     salary: "Open to competitive offers",
     salaryAlt: "Remote · Relocation negotiable",
+    salaryHidden: true,
     type: "Full-time",
     format: "Remote · Hybrid · Relocation considered"
   },
   about: [
-    "Lead Flutter Developer with 4+ years at a single cross-functional unit inside Gazprom Neft. Author of 6+ mobile products in App Store, Google Play and RuStore — including a product with 2 Russian federal software copyrights (RosPatent) and listing in the Unified Register of Russian Software (Ministry of Digital Development). Published Flutter SDK on pub.dev. Combine engineering and project management on a key product of the team.",
-    "Working in an AI-augmented paradigm: Claude Code with custom .md skills, Figma MCP for design-to-code, Shannon for security auditing, Obsidian as a knowledge base. Teaching Flutter at IT Hub College since January 2026 (23 students); mentored teams at IT Camp 2025 (Gazprom Neft × Sirius University) — one of my teams took the Grand Prix."
+    "Flutter Developer with 4+ years at a single cross-functional unit inside Gazprom Neft. Author of 6+ mobile products in App Store, Google Play and RuStore — including a product with 2 Russian federal software copyrights (RosPatent) and listing in the Unified Register of Russian Software (Ministry of Digital Development). Published Flutter SDK on pub.dev. Combine engineering and project management on a key product of the team.",
+    "Working in an AI-augmented paradigm: Claude Code with custom .md skills, Figma MCP for design-to-code, Shannon for security auditing, Obsidian as a knowledge base, GSD (get-shit-done, OSS) for phase-based planning. Teaching Flutter at IT Hub College since January 2026 (23 students); mentored teams at IT Camp 2025 (Gazprom Neft × Sirius University) — one of them took the Grand Prix."
   ],
   experience: [
     {
       company: "Gazprom Neft Group · punklab unit",
-      role: "Lead Flutter Developer",
+      role: "Flutter Developer",
       period: "Feb 2022 — Present",
       duration: "4+ years",
       note: "Internal transfer from Gazpromneft-Supply to Gazpromneft-Digital Solutions in January 2025; the entire team moved together.",
       description: "punklab is a cross-functional digital unit inside the Gazprom Neft Group, organized into 3 business units (Web / Products / Custom Development). Delivers products to Gazprom Neft group companies and the external market.",
       generalBullets: [
         "Joined as the 5th team member in 2022; unit scaled to 28 people — 5.6× growth over 4 years.",
-        "Lead Flutter Developer in the mobile engineering team.",
+        "Flutter Developer in the mobile engineering team (3 Flutter engineers).",
         "Production releases in App Store, Google Play, RuStore across 5+ corporate products.",
         "Compliance-driven App Store publishing expertise — shipping products under parent-company operational constraints (rebranding, parallel developer accounts, feature substitution).",
         "Since 2025 — combined Developer + Project Manager roles on a key team product."
@@ -194,7 +195,7 @@ window.CV_DATA_EN = {
       description: "EdTech safety platform for educational institutions: SOS scenarios, preventive lessons, daily safety questions, training tests, push notifications. Team: 3 co-founders; I own the full technical implementation.",
       bullets: [
         "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend (AI-assisted), admin panel.",
-        "AI-augmented workflow: Claude Code with custom .md skills, Figma MCP for design-to-code, custom GSD framework for phase-based planning, Obsidian vault as knowledge base.",
+        "AI-augmented workflow: Claude Code with custom .md skills, Figma MCP for design-to-code, GSD (get-shit-done, OSS) for phase-based planning, Obsidian vault as knowledge base.",
         "Integrations: Sentry, Firebase (Auth, FCM, Remote Config), OTP autofill, iOS Live Activities for alarms, payments.",
         "Security audit via Shannon (OSS AI pentester) prior to launch.",
         "Pilot deployment at 2 educational institutions via TestFlight; App Store / Google Play production release — Q3 2026."
@@ -270,7 +271,7 @@ window.CV_DATA_EN = {
     { group: "CI/CD & DevTools", items: ["Codemagic", "GitHub Actions", "Bitbucket Pipelines", "flutter_lints"] },
     { group: "Testing", items: ["Unit & Widget tests (bloc_test, mocktail)", "AI-assisted TDD via Claude Code"] },
     { group: "Full-stack delivery (AI-assisted)", items: ["End-to-end product delivery including backend (FastAPI / Python) and admin panel"], note: "Not claiming senior backend expertise; focus on architecture-level product ownership" },
-    { group: "AI-Augmented Development", items: ["Claude Code + custom .md skills", "Figma MCP (design-to-code)", "Shannon (OSS AI pentester) for security auditing", "Obsidian Vault (knowledge base, AI context)", "GSD — own framework for phase-based planning"] },
+    { group: "AI-Augmented Development", items: ["Claude Code + custom .md skills", "Figma MCP (design-to-code)", "Shannon (OSS AI pentester) for security auditing", "Obsidian Vault (knowledge base, AI context)", "GSD — get-shit-done (OSS framework for phase-based planning)"] },
     { group: "Architectural Principles", items: ["SOLID", "DRY", "KISS", "Clean Architecture", "Repository Pattern", "Bridge Pattern"] }
   ],
   education: {
@@ -284,6 +285,7 @@ window.CV_DATA_EN = {
       {
         institution: "Saint Petersburg University of Management and Economics",
         degree: "MSc · Economics",
+        specialty: "Financial Management",
         year: "2024"
       }
     ],

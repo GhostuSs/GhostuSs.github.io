@@ -83,6 +83,10 @@
   function renderPosition(data) {
     if (!data.position) return '';
     const p = data.position;
+    const hint = esc(data.sections.revealHint || (state.lang === 'ru' ? 'Нажмите, чтобы раскрыть' : 'Click to reveal'));
+    const salaryHtml = p.salaryHidden
+      ? `<span class="spoiler" tabindex="0" role="button" aria-label="${hint}" title="${hint}">${esc(p.salary)}</span><span class="spoiler-hint">${hint}</span>`
+      : esc(p.salary);
     return sectionWrap({
       id: 'position',
       kicker: '02',
@@ -96,7 +100,7 @@
           </div>
           <div class="position-item">
             <div class="position-label">${state.lang === 'ru' ? 'Желаемый доход' : 'Compensation'}</div>
-            <div class="position-value">${esc(p.salary)}</div>
+            <div class="position-value">${salaryHtml}</div>
             <div class="position-value-alt">${esc(p.salaryAlt || '')}</div>
           </div>
           <div class="position-item">
@@ -126,10 +130,12 @@
         const generalBullets = exp.generalBullets && exp.generalBullets.length
           ? `<ul class="bullets">${exp.generalBullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul>`
           : '';
-        const projects = exp.projects && exp.projects.length ? renderProjects(exp.projects) : '';
+        const hasProjects = exp.projects && exp.projects.length;
+        const projects = hasProjects ? renderProjects(exp.projects) : '';
+        const expClass = hasProjects ? 'exp' : 'exp standalone-exp';
 
         return `
-          <div class="exp">
+          <div class="${expClass}">
             <div class="exp-head">
               <h3 class="exp-company">${esc(exp.company)}</h3>
               ${metaRow}
@@ -394,6 +400,18 @@
     $$('.lang-btn').forEach((btn) => {
       const isActive = btn.dataset.lang === state.lang;
       btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+
+    // spoiler handlers — reveal on click or Enter/Space
+    $$('.spoiler', root).forEach((s) => {
+      const reveal = () => s.classList.add('revealed');
+      s.addEventListener('click', reveal);
+      s.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          reveal();
+        }
+      });
     });
   }
 
