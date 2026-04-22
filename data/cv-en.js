@@ -162,16 +162,6 @@ window.CV_DATA_EN = {
             "Migrated state management from Riverpod to a custom BLoC (per client request)."
           ]
         },
-        {
-          name: "Agent / Courier (MP-Rating)",
-          role: "Mobile Developer",
-          period: "Feb — Oct 2024",
-          stack: "Flutter · Provider · injectable · rxdart · dartz · auto_route",
-          bullets: [
-            "Corporate mobile apps optimizing marketplace-review collection (internal B2B, closed distribution).",
-            "Full-cycle development of two apps; delivered on schedule."
-          ]
-        }
       ]
     },
     {
