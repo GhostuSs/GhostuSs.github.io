@@ -1,0 +1,222 @@
+/* =========================================================
+   PRINT / PDF — applied via media="print"
+   Target: A4, minimal ink, clean structure, no UI chrome
+   ========================================================= */
+
+@page {
+  size: A4;
+  margin: 14mm 14mm 16mm 14mm;
+}
+
+@media print {
+  /* Always light for printing, regardless of screen theme */
+  html, html[data-theme="dark"] {
+    --bg: #ffffff;
+    --bg-elev: #ffffff;
+    --bg-muted: #f5f5f5;
+    --text: #0a0a0a;
+    --text-muted: #4a4a4a;
+    --text-subtle: #6a6a6a;
+    --border: #d9d9d9;
+    --border-strong: #bdbdbd;
+    --accent: #0a0a0a;
+    --chip-bg: transparent;
+    --chip-border: #d0d0d0;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #0a0a0a !important;
+    font-size: 10.5pt !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Hide UI chrome */
+  .topbar, .cv-footer, .theme-toggle, .print-btn, .lang-toggle {
+    display: none !important;
+  }
+
+  /* Full-width content for print */
+  .cv {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Hero tightened for one-page-first-page fit */
+  .hero {
+    grid-template-columns: 1fr 140px !important;
+    gap: 18px !important;
+    padding-bottom: 12px !important;
+    margin-bottom: 18px !important;
+    border-bottom: 1px solid #d0d0d0 !important;
+    page-break-inside: avoid;
+  }
+
+  .hero-text h1 {
+    font-size: 28pt !important;
+    line-height: 1.05 !important;
+    margin-bottom: 4px !important;
+  }
+
+  .hero-role {
+    font-size: 12pt !important;
+    margin-bottom: 2px !important;
+  }
+
+  .hero-tagline, .hero-location {
+    font-size: 9pt !important;
+    color: #555 !important;
+    margin-bottom: 6px !important;
+  }
+
+  .hero-photo {
+    width: 140px !important;
+    height: 140px !important;
+    border: 1px solid #c9c9c9 !important;
+  }
+
+  .contacts {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 4px 14px !important;
+    margin-top: 6px !important;
+  }
+
+  .contact { font-size: 9pt !important; }
+
+  /* Sections spacing */
+  .section {
+    margin-bottom: 14pt !important;
+    page-break-inside: avoid;
+  }
+
+  /* Allow breaks inside larger sections */
+  .section:has(> .projects),
+  .section:has(> .skills-grid) {
+    page-break-inside: auto;
+  }
+
+  .section-head {
+    margin-bottom: 8pt !important;
+    padding-bottom: 4pt !important;
+    border-bottom: 1px solid #c9c9c9 !important;
+  }
+
+  .section-title {
+    font-size: 14pt !important;
+    line-height: 1.2 !important;
+  }
+
+  .section-kicker { font-size: 8pt !important; }
+
+  /* Typography in body */
+  .about p { font-size: 10pt !important; line-height: 1.45 !important; margin-bottom: 6pt !important; }
+
+  .position-card {
+    padding: 8pt 10pt !important;
+    background: #fafafa !important;
+    border-color: #d9d9d9 !important;
+    page-break-inside: avoid;
+  }
+
+  .position-label { font-size: 7.5pt !important; }
+  .position-value { font-size: 10pt !important; }
+  .position-value-alt { font-size: 8.5pt !important; }
+
+  /* Experience */
+  .exp {
+    margin-bottom: 12pt !important;
+    page-break-inside: auto;
+  }
+
+  .exp-company { font-size: 12pt !important; margin-bottom: 2pt !important; }
+  .exp-meta { font-size: 8.5pt !important; margin-bottom: 2pt !important; }
+  .exp-note { font-size: 8pt !important; margin-bottom: 4pt !important; }
+  .exp-desc { font-size: 9.5pt !important; margin-bottom: 6pt !important; }
+
+  .bullets li {
+    font-size: 9.5pt !important;
+    line-height: 1.4 !important;
+    margin-bottom: 3pt !important;
+    padding-left: 12pt !important;
+  }
+
+  .bullets li::before {
+    top: 7pt !important;
+    width: 3pt !important;
+    height: 3pt !important;
+  }
+
+  /* Projects inside experience */
+  .projects { gap: 8pt !important; margin-top: 6pt !important; }
+
+  .project {
+    padding: 8pt 10pt !important;
+    background: #fafafa !important;
+    border-color: #d9d9d9 !important;
+    page-break-inside: avoid;
+  }
+
+  .project:hover { border-color: #d9d9d9 !important; }
+
+  .project-name { font-size: 10.5pt !important; }
+  .project-role { font-size: 8.5pt !important; }
+  .project-period { font-size: 8pt !important; }
+  .project-stack { font-size: 8pt !important; margin-bottom: 4pt !important; }
+  .project .bullets li { font-size: 9pt !important; }
+
+  /* Achievements */
+  .ach-group { margin-bottom: 8pt !important; page-break-inside: avoid; }
+  .ach-label { font-size: 7.5pt !important; margin-bottom: 4pt !important; }
+  .ach-list li { font-size: 9.5pt !important; padding-left: 14pt !important; line-height: 1.4 !important; }
+
+  /* Skills: grid for denser layout in print */
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 6pt !important;
+  }
+
+  .skill-group {
+    padding: 6pt 8pt !important;
+    background: #fafafa !important;
+    border-color: #d9d9d9 !important;
+    page-break-inside: avoid;
+  }
+
+  .skill-group-label { font-size: 9.5pt !important; margin-bottom: 4pt !important; }
+
+  .skill-chips { gap: 3pt !important; }
+  .skill-chips li {
+    font-size: 7.5pt !important;
+    padding: 2pt 5pt !important;
+    background: #ffffff !important;
+    border-color: #d0d0d0 !important;
+  }
+
+  .skill-note { font-size: 8pt !important; }
+
+  /* Education */
+  .edu-list { gap: 8pt !important; }
+  .edu-item { padding: 4pt 10pt !important; page-break-inside: avoid; }
+  .edu-institution { font-size: 10pt !important; }
+  .edu-degree { font-size: 9.5pt !important; }
+  .edu-meta { font-size: 8.5pt !important; }
+
+  .edu-courses { margin-top: 8pt !important; }
+  .edu-courses-head { font-size: 8pt !important; margin-bottom: 4pt !important; }
+  .course-list { gap: 4pt !important; }
+  .course-list li { font-size: 9pt !important; grid-template-columns: 40px 1fr !important; gap: 6pt !important; }
+  .course-year { font-size: 8pt !important; }
+
+  /* Languages */
+  .lang-list li { font-size: 9.5pt !important; }
+  .additional-block { font-size: 9pt !important; }
+
+  /* Links — keep URLs hidden in print (values are already visible) */
+  a[href]::after { content: ""; }
+  a { text-decoration: none !important; color: inherit !important; }
+
+  /* Anti-orphans */
+  h1, h2, h3, h4 { page-break-after: avoid; }
+  p, li { orphans: 2; widows: 2; }
+}
