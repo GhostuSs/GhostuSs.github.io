@@ -68,7 +68,7 @@ window.CV_DATA_EN = {
             "Designed, built and solo-maintained from scratch for 3+ years (version 2.4.0, 20,000+ RuStore installs).",
             "Obtained 2 RosPatent software copyrights (iOS + Android versions, 2025) — Russian federal state-issued IP registration.",
             "Product listed in the Unified Register of Russian Software (Ministry of Digital Development, 2025–2026).",
-            "Finalist: REXA-2025 and 'People of Progress' — Gazprom Neft internal innovation awards.",
+            "Finalist: REXA-2025 (Russian Employee Experience Awards — national award for digital employee experience & internal communications) and 'People of Progress' award.",
             "Architecture: GetX → Provider → Clean Architecture migrations; combined Lead Developer and PM roles since 2025."
           ]
         },
@@ -236,9 +236,9 @@ window.CV_DATA_EN = {
     recognition: {
       label: "Industry recognition",
       items: [
-        "Finalist — REXA-2025 (Gazprom Neft internal innovation award)",
+        "Finalist — REXA-2025 (Russian Employee Experience Awards) — national award for digital employee experience and internal communications",
         "Finalist — 'People of Progress' award",
-        "Grand Prix — IT Camp 2025 (mentored team)"
+        "Grand Prix — IT Camp 2025 (team under my mentorship won)"
       ]
     },
     opensource: {
