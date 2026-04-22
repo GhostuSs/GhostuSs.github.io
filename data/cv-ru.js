@@ -35,7 +35,7 @@ window.CV_DATA_RU = {
   position: {
     role: "Flutter Developer",
     roleDetails: "Mobile engineering · Product ownership",
-    salary: "от 380 000 ₽ net / мес",
+    salary: "По договорённости",
     salaryAlt: "или эквивалент в валюте для международных офферов",
     salaryHidden: true,
     type: "Полная занятость",

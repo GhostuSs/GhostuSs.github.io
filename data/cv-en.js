@@ -35,7 +35,7 @@ window.CV_DATA_EN = {
   position: {
     role: "Flutter Developer",
     roleDetails: "Mobile Engineering · Product Ownership",
-    salary: "Open to competitive offers",
+    salary: "Negotiable",
     salaryAlt: "Remote · Relocation negotiable",
     salaryHidden: true,
     type: "Full-time",
