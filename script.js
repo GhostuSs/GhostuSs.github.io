@@ -418,10 +418,40 @@
       });
     });
 
+    // collapsible sections (achievements starts collapsed)
+    setupCollapsible(root, '#section-achievements');
+
     // scroll-reveal
     const skipVisible = !firstRender;
     firstRender = false;
     initAnimations(root, skipVisible);
+  }
+
+  // ---------- COLLAPSIBLE SECTIONS ----------
+  function setupCollapsible(root, selector) {
+    const section = $(selector, root);
+    if (!section) return;
+    const head = $('.section-head', section);
+    if (!head) return;
+
+    head.classList.add('collapsible-head');
+    section.classList.add('collapsed');
+    head.setAttribute('role', 'button');
+    head.setAttribute('tabindex', '0');
+    head.setAttribute('aria-expanded', 'false');
+
+    const toggle = () => {
+      section.classList.toggle('collapsed');
+      head.setAttribute('aria-expanded', section.classList.contains('collapsed') ? 'false' : 'true');
+    };
+
+    head.addEventListener('click', toggle);
+    head.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggle();
+      }
+    });
   }
 
   // ---------- SCROLL-REVEAL ----------

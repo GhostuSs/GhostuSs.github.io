@@ -195,6 +195,11 @@
   /* Force scroll-reveal elements visible in print */
   [data-anim] { opacity: 1 !important; animation: none !important; transform: none !important; }
 
+  /* Force collapsible sections expanded in print */
+  .section.collapsed > .ach-group { display: block !important; }
+  .collapsible-head .section-title::after { display: none !important; }
+  .collapsible-head { cursor: auto !important; }
+
   h1, h2, h3, h4 { page-break-after: avoid; }
   p, li { orphans: 2; widows: 2; }
 }

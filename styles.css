@@ -782,6 +782,35 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 }
 
 /* =========================================================
+   COLLAPSIBLE SECTIONS
+   ========================================================= */
+.collapsible-head {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s ease;
+}
+
+.collapsible-head:hover .section-title { color: var(--text-muted); }
+
+.collapsible-head .section-title::after {
+  content: "▾";
+  font-size: 0.55em;
+  color: var(--text-subtle);
+  margin-left: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.section.collapsed .collapsible-head .section-title::after {
+  transform: rotate(-90deg);
+}
+
+.section.collapsed > .ach-group {
+  display: none;
+}
+
+/* =========================================================
    SCROLL-REVEAL ANIMATIONS
    ========================================================= */
 @keyframes fadeUp {
