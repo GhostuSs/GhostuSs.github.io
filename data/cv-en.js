@@ -50,8 +50,6 @@ window.CV_DATA_EN = {
       role: "Flutter Developer",
       period: "Feb 2022 — Present",
       duration: "4+ years",
-      note: "Internal transfer from Gazpromneft-Supply to Gazpromneft-Digital Solutions in January 2025; the entire team moved together.",
-      description: "punklab is a cross-functional digital unit inside the Gazprom Neft Group, organized into 3 business units (Web / Products / Custom Development). Delivers products to Gazprom Neft group companies and the external market.",
       generalBullets: [
         "Joined as the 5th team member in 2022; unit scaled to 28 people over 4 years.",
         "Since 2025 — combined Developer + Project Manager roles on a key team product."
@@ -63,8 +61,7 @@ window.CV_DATA_EN = {
           stack: "Flutter · Clean Architecture · Offline-first",
           bullets: [
             "Designed, built and solo-maintained from scratch for 3+ years (20,000+ RuStore installs).",
-            "2 RosPatent software copyrights + listing in the Unified Register of Russian Software.",
-            "Finalist: REXA-2025 and 'People of Progress' awards."
+            "2 RosPatent software copyrights + listing in the Unified Register of Russian Software."
           ]
         },
         {
@@ -101,7 +98,6 @@ window.CV_DATA_EN = {
       company: "Parallel Freelance / Contract Development",
       role: "Senior Flutter Developer",
       period: "Mar 2024 — Present",
-      description: "Publish select products to RuStore under my own developer account.",
       projects: [
         {
           name: "Surprise — FoodTech + E-commerce",
@@ -212,7 +208,7 @@ window.CV_DATA_EN = {
     { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — prototypes", "Platform Channels", "Deep Links", "Flavors"] },
     { group: "Integrations & Payments", items: ["Alfa Pay · YooKassa · SberPay · CloudPayments · Tinkoff", "RevenueCat", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · AppMetrica · Amplitude"] },
     { group: "CI/CD & Testing", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines", "Unit & Widget tests"] },
-    { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) and admin panel", "Claude Code, Figma MCP"], note: "Architecture-level product ownership, not claiming senior backend expertise" }
+    { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) and admin panel", "Claude Code, Figma MCP"] }
   ],
   education: {
     degrees: [

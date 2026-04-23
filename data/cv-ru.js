@@ -50,8 +50,6 @@ window.CV_DATA_RU = {
       role: "Flutter-разработчик",
       period: "Февраль 2022 — настоящее время",
       duration: "4+ года",
-      note: "Внутренний перевод: «Газпромнефть-Снабжение» → «Газпромнефть-Цифровые решения» в январе 2025; команда переехала целиком.",
-      description: "Панклаб — сквозная digital-команда внутри Группы «Газпром нефть», организованная в 3 бизнес-юнита (Web / Продукты / Цифровой завод). Обслуживает все компании холдинга и внешний рынок.",
       generalBullets: [
         "Пришёл в команду 5-м в 2022; команда выросла до 28 человек за 4 года.",
         "С 2025 — совмещение ролей разработчика и PM на ключевом продукте команды."
@@ -63,8 +61,7 @@ window.CV_DATA_RU = {
           stack: "Flutter · Clean Architecture · offline-first",
           bullets: [
             "Спроектировал и разработал с нуля; единолично веду продукт 3+ года (20 000+ установок в RuStore).",
-            "2 свидетельства Роспатент + запись в Едином реестре российского ПО (Минцифры).",
-            "Финалист REXA-2025 и премии «Люди прогресса»."
+            "2 свидетельства Роспатент + запись в Едином реестре российского ПО (Минцифры)."
           ]
         },
         {
@@ -101,7 +98,6 @@ window.CV_DATA_RU = {
       company: "Параллельный фриланс / Контрактная разработка",
       role: "Senior Flutter Developer",
       period: "Март 2024 — настоящее время",
-      description: "Публикую часть продуктов в RuStore от своего имени (собственный developer-account).",
       projects: [
         {
           name: "Surprise — FoodTech + e-commerce",
@@ -212,7 +208,7 @@ window.CV_DATA_RU = {
     { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — прототипы", "Platform Channels", "Deep Links", "Flavors"] },
     { group: "Интеграции и платежи", items: ["Alfa Pay · YooKassa · SberPay · CloudPayments · Tinkoff", "RevenueCat", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · AppMetrica · Amplitude"] },
     { group: "CI/CD и тестирование", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines", "Unit & Widget tests"] },
-    { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) и admin panel", "Claude Code, Figma MCP"], note: "Архитектурно-продуктовый ownership, без заявки на senior backend" }
+    { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) и admin panel", "Claude Code, Figma MCP"] }
   ],
   education: {
     degrees: [
