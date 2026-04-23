@@ -15,7 +15,8 @@ window.CV_DATA_EN = {
       { label: "Email", value: "maximusdrlor@gmail.com", href: "mailto:maximusdrlor@gmail.com", icon: "email" },
       { label: "Phone", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
-      { label: "LinkedIn", value: "Maksim Movchan", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" }
+      { label: "LinkedIn", value: "Maksim Movchan", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" },
+      { label: "Website", value: "ghostuss.github.io", href: "https://ghostuss.github.io", icon: "globe" }
     ]
   },
   sections: {
@@ -226,7 +227,7 @@ window.CV_DATA_EN = {
       }
     ],
     courses: [
-      { year: "2024", name: "Russian IT: Industry Trends and Project Delivery Approaches", provider: "Sirius Scientific and Technological University" }
+      { year: "2024", name: "Russian IT: Industry Trends & Project Delivery", provider: "Sirius Scientific and Technological University" }
     ]
   },
   languages: [

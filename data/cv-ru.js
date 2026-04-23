@@ -15,7 +15,8 @@ window.CV_DATA_RU = {
       { label: "Email", value: "maximusdrlor@gmail.com", href: "mailto:maximusdrlor@gmail.com", icon: "email" },
       { label: "Телефон", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
-      { label: "LinkedIn", value: "Максим Мовчан", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" }
+      { label: "LinkedIn", value: "Максим Мовчан", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" },
+      { label: "Website", value: "ghostuss.github.io", href: "https://ghostuss.github.io", icon: "globe" }
     ]
   },
   sections: {
@@ -226,7 +227,7 @@ window.CV_DATA_RU = {
       }
     ],
     courses: [
-      { year: "2024", name: "«Российские информационные технологии: тренды отрасли и подходы к реализации проектов»", provider: "АНО ВО «Научно-технологический университет «Сириус»»" }
+      { year: "2024", name: "Российские ИТ: тренды отрасли и подходы к реализации проектов", provider: "АНО ВО «Научно-технологический университет «Сириус»»" }
     ]
   },
   languages: [
