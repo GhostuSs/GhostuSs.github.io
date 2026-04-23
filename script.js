@@ -73,11 +73,11 @@
     return `
       <section class="hero">
         <div class="hero-text">
+          <p class="hero-readtime" data-slot="readtime"></p>
           <h1>${esc(header.name)} ${esc(header.surname || '')}</h1>
           <p class="hero-role">${esc(header.role)}</p>
           <p class="hero-tagline">${esc(header.tagline)}</p>
           <p class="hero-location">${esc(header.location)}</p>
-          <p class="hero-readtime" data-slot="readtime"></p>
           <ul class="contacts">${contacts}</ul>
         </div>
         <div class="hero-photo">
@@ -88,9 +88,29 @@
   }
 
   function computeReadTime(root) {
-    const text = root.textContent || '';
-    const words = text.trim().split(/\s+/).filter(Boolean).length;
-    const minutes = Math.max(1, Math.round(words / 200));
+    // Count only readable prose — skip scan-only elements (chips, dates, contacts)
+    const proseSelectors = [
+      '.about p',
+      '.bullets li',
+      '.exp-desc',
+      '.ach-list li',
+      '.lang-list li',
+      '.edu-institution',
+      '.edu-degree',
+      '.course-list li',
+      '.additional-block',
+      '.section-title'
+    ];
+    let words = 0;
+    proseSelectors.forEach((sel) => {
+      $$(sel, root).forEach((el) => {
+        const text = (el.textContent || '').trim();
+        if (text) words += text.split(/\s+/).filter(Boolean).length;
+      });
+    });
+    // Skill chips: count each as ~0.5 word (glance/scan)
+    $$('.skill-chips li', root).forEach(() => { words += 0.5; });
+    const minutes = Math.max(1, Math.round(words / 250));
     return minutes;
   }
 
