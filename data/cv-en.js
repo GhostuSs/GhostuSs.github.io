@@ -15,7 +15,7 @@ window.CV_DATA_EN = {
       { label: "Email", value: "maks.makis@ya.ru", href: "mailto:maks.makis@ya.ru", icon: "email" },
       { label: "Phone", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
-      { label: "LinkedIn", value: "Maksim Movchan", href: "https://www.linkedin.com/in/максим-мовчан-02aa40241/", icon: "linkedin" }
+      { label: "LinkedIn", value: "Maksim Movchan", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" }
     ]
   },
   sections: {
@@ -42,7 +42,7 @@ window.CV_DATA_EN = {
     format: "Remote · Hybrid · Relocation considered"
   },
   about: [
-    "Flutter Developer with 4+ years at a single cross-functional unit inside Gazprom Neft. Author of 6+ mobile products in App Store, Google Play and RuStore — including a product with 2 Russian federal software copyrights (RosPatent) and listing in the Unified Register of Russian Software (Ministry of Digital Development). Published Flutter SDK on pub.dev. Combine engineering and project management on a key product of the team."
+    "Flutter Developer with 4+ years at a cross-functional unit inside Gazprom Neft. Author of 6 mobile products in App Store, Google Play and RuStore — including a product with 2 Russian federal software copyrights (RosPatent) and listing in the Unified Register of Russian Software (Ministry of Digital Development). Published Flutter SDK on pub.dev. Since 2025, combining engineering with project ownership: leading a team, coordinating cross-functional tracks, and managing client communication."
   ],
   experience: [
     {
@@ -116,7 +116,7 @@ window.CV_DATA_EN = {
       company: "Parallel Freelance / Contract Development",
       role: "Senior Flutter Developer",
       period: "Mar 2024 — Present",
-      description: "Publish select products to RuStore under my own developer account (IE Movchan M.I.).",
+      description: "Publish select products to RuStore under my own developer account.",
       projects: [
         {
           name: "Surprise — FoodTech + E-commerce",
@@ -125,9 +125,7 @@ window.CV_DATA_EN = {
           stack: "Flutter · Drift · Swift · Kotlin",
           bullets: [
             "Mobile app for food delivery with a self-service kiosk mode for HoReCa terminals.",
-            "Primary contributor, solo development (644 commits).",
-            "Codebase: 58,000+ Dart LOC, 291 files, 9 screens, 25 use cases, Clean Architecture.",
-            "Separate kiosk-mode branch (main_kiosk2, 240 commits).",
+            "Solo development from scratch to release: 9 screens, 25 use cases, Clean Architecture, separate kiosk branch.",
             "Integrations: Alfa Pay SDK; Sberbank UPOS TSP payment terminal (research prototype in native Android Kotlin + AIDL IPC + EMV/TLV protocol analysis).",
             "iOS Native: Live Activities for real-time order tracking (Swift).",
             "Security audit of backend (Bagisto / Laravel) and mobile client via Shannon (OSS AI pentester) prior to launch."
@@ -176,7 +174,7 @@ window.CV_DATA_EN = {
       period: "Feb 2026 — Present",
       description: "EdTech safety platform for educational institutions: SOS scenarios, preventive lessons, daily safety questions, training tests, push notifications. Team: 3 co-founders; I own the full technical implementation.",
       bullets: [
-        "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend (AI-assisted), admin panel.",
+        "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend, admin panel.",
         "Integrations: Sentry, Firebase (Auth, FCM, Remote Config), OTP autofill, iOS Live Activities for alarms, payments. Security audit via Shannon (OSS AI pentester) prior to launch.",
         "Pilot deployment at 2 educational institutions via TestFlight; App Store / Google Play production release — Q3 2026."
       ]
@@ -241,14 +239,14 @@ window.CV_DATA_EN = {
     { group: "Networking", items: ["Dio + interceptors", "WebSocket", "REST API design"] },
     { group: "Persistence", items: ["Drift (SQLite, type-safe)", "Hive", "shared_preferences", "flutter_secure_storage"] },
     { group: "Code Generation", items: ["freezed", "json_serializable", "build_runner", "flutter_gen"] },
-    { group: "Native & Platform", items: ["iOS Native (Swift) — maintenance, App Store publishing, Live Activities, APNs", "Android Native (Kotlin) — research prototypes (AIDL IPC, EMV/TLV via Sberbank UPOS)", "Platform Channels", "Deep Links", "Flavors"] },
+    { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing, maintenance", "Android Native (Kotlin) — research-level (native prototypes)", "Platform Channels", "Deep Links", "Flavors"] },
     { group: "Payments / SDKs", items: ["RevenueCat", "Alfa Pay SDK", "YooKassa", "SberPay", "CloudPayments", "Tinkoff Pay"] },
     { group: "Push / Notifications", items: ["Firebase Cloud Messaging", "OneSignal", "flutter_local_notifications", "iOS Live Activities"] },
     { group: "Analytics / Observability", items: ["Firebase Analytics", "Firebase Crashlytics", "AppMetrica", "Amplitude", "Sentry"] },
     { group: "CI/CD & DevTools", items: ["Codemagic", "GitHub Actions", "Bitbucket Pipelines"] },
-    { group: "Testing", items: ["Unit & Widget tests (bloc_test, mocktail)", "AI-assisted TDD via Claude Code"] },
+    { group: "Testing", items: ["Unit & Widget tests"] },
     { group: "Full-stack delivery (AI-assisted)", items: ["End-to-end product delivery including backend (FastAPI / Python) and admin panel"], note: "Not claiming senior backend expertise; focus on architecture-level product ownership" },
-    { group: "AI-Augmented Development", items: ["Claude Code + custom .md skills", "Figma MCP (design-to-code)", "Shannon (OSS AI pentester) for security auditing", "Obsidian Vault (knowledge base, AI context)", "GSD — get-shit-done (OSS framework for phase-based planning)"] }
+    { group: "AI-Augmented Development", items: ["Claude Code (code generation, review)", "Figma MCP (design-to-code)", "AI-assisted security audit prior to release"] }
   ],
   education: {
     degrees: [

@@ -15,7 +15,7 @@ window.CV_DATA_RU = {
       { label: "Email", value: "maks.makis@ya.ru", href: "mailto:maks.makis@ya.ru", icon: "email" },
       { label: "Телефон", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
-      { label: "LinkedIn", value: "Максим Мовчан", href: "https://www.linkedin.com/in/максим-мовчан-02aa40241/", icon: "linkedin" }
+      { label: "LinkedIn", value: "Максим Мовчан", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" }
     ]
   },
   sections: {
@@ -42,7 +42,7 @@ window.CV_DATA_RU = {
     format: "Удалённо, гибрид, релокация рассматривается"
   },
   about: [
-    "Flutter-разработчик с 4+ годами продуктового опыта в одной команде внутри Группы «Газпром нефть». Автор 6+ мобильных продуктов в App Store, Google Play и RuStore — в том числе приложения с 2 свидетельствами Роспатент и записью в Едином реестре российского ПО (Минцифры). Автор Flutter SDK на pub.dev. Совмещаю разработку и проектный менеджмент на ключевом продукте команды."
+    "Flutter-разработчик с 4+ годами продуктового опыта внутри Группы «Газпром нефть». Автор 6 мобильных продуктов в App Store, Google Play и RuStore — в том числе приложения с 2 свидетельствами Роспатент и записью в Едином реестре российского ПО (Минцифры). Автор Flutter SDK на pub.dev. С 2025 года совмещаю инженерную роль с управлением проектом: веду команду, координирую смежные треки, общаюсь с заказчиком."
   ],
   experience: [
     {
@@ -116,7 +116,7 @@ window.CV_DATA_RU = {
       company: "Параллельный фриланс / Контрактная разработка",
       role: "Senior Flutter Developer",
       period: "Март 2024 — настоящее время",
-      description: "Публикую часть продуктов в RuStore от своего имени (ИП Мовчан М.И. — собственный developer-account).",
+      description: "Публикую часть продуктов в RuStore от своего имени (собственный developer-account).",
       projects: [
         {
           name: "Surprise — FoodTech + e-commerce",
@@ -125,9 +125,7 @@ window.CV_DATA_RU = {
           stack: "Flutter · Drift · Swift · Kotlin",
           bullets: [
             "Мобильное приложение для доставки готовых блюд и напитков с self-service kiosk-режимом для HoReCa-терминалов.",
-            "Primary contributor, единоличная разработка (644 коммита).",
-            "Кодобаза: 58 000+ строк Dart, 291 файл, 9 экранов, 25 use cases, Clean Architecture.",
-            "Отдельный kiosk-режим (ветка main_kiosk2, 240 коммитов).",
+            "Единоличная разработка от нуля до релиза: 9 экранов, 25 use cases, Clean Architecture, отдельная kiosk-ветка.",
             "Интеграции: Alfa Pay SDK, Сбер UPOS TSP payment terminal (research-prototype native Android Kotlin + AIDL IPC + EMV/TTK protocol).",
             "iOS Native: Live Activities для real-time трекинга заказов (Swift).",
             "Security-audit backend (Bagisto / Laravel) и клиента через Shannon (OSS AI-pentester) до релиза."
@@ -176,7 +174,7 @@ window.CV_DATA_RU = {
       period: "Февраль 2026 — настоящее время",
       description: "EdTech-платформа безопасности для образовательных учреждений: SOS-сценарии, профилактические уроки, ежедневные вопросы безопасности, тренировочные тесты, push-уведомления. Команда: 3 сооснователя; моя зона — полная техническая реализация.",
       bullets: [
-        "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend (AI-assisted), админ-панель.",
+        "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend, админ-панель.",
         "Интеграции: Sentry, Firebase (Auth, FCM, Remote Config), OTP-autofill, iOS Live Activities для тревог, платежи. Security-audit через Shannon (OSS AI-pentester) перед запуском.",
         "Запущена пилотная эксплуатация на 2 образовательных учреждениях через TestFlight; production-релиз в App Store / Google Play — Q3 2026."
       ]
@@ -241,14 +239,14 @@ window.CV_DATA_RU = {
     { group: "Networking", items: ["Dio + interceptors", "WebSocket", "REST API design"] },
     { group: "Persistence", items: ["Drift (SQLite, type-safe)", "Hive", "shared_preferences", "flutter_secure_storage"] },
     { group: "Code Generation", items: ["freezed", "json_serializable", "build_runner", "flutter_gen"] },
-    { group: "Native & Platform", items: ["iOS Native (Swift) — maintenance, App Store publishing, Live Activities, APNs", "Android Native (Kotlin) — research prototypes (AIDL IPC, EMV/TLV via Sberbank UPOS)", "Platform Channels", "Deep Links", "Flavors"] },
+    { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing, maintenance", "Android Native (Kotlin) — research-level (нативные прототипы)", "Platform Channels", "Deep Links", "Flavors"] },
     { group: "Payments / SDK", items: ["RevenueCat", "Alfa Pay SDK", "YooKassa", "SberPay", "CloudPayments", "Tinkoff Pay"] },
     { group: "Push / Notifications", items: ["Firebase Cloud Messaging", "OneSignal", "flutter_local_notifications", "iOS Live Activities"] },
     { group: "Analytics / Observability", items: ["Firebase Analytics", "Firebase Crashlytics", "AppMetrica", "Amplitude", "Sentry"] },
     { group: "CI/CD & DevTools", items: ["Codemagic", "GitHub Actions", "Bitbucket Pipelines"] },
-    { group: "Testing", items: ["Unit & Widget tests (bloc_test, mocktail)", "AI-assisted TDD via Claude Code"] },
+    { group: "Testing", items: ["Unit & Widget tests"] },
     { group: "Full-stack delivery (AI-assisted)", items: ["End-to-end product delivery включая backend (FastAPI / Python) и admin panel"], note: "Без заявки на senior backend expertise; фокус на архитектурно-продуктовом ownership" },
-    { group: "AI-Augmented Development", items: ["Claude Code + кастомные .md skills", "Figma MCP (design-to-code)", "Shannon (OSS AI-pentester) для security-аудита", "Obsidian Vault (knowledge base, AI-context)", "GSD — get-shit-done (OSS framework для фазового планирования)"] }
+    { group: "AI-Augmented Development", items: ["Claude Code (code generation, review)", "Figma MCP (design-to-code)", "AI-assisted security audit перед релизом"] }
   ],
   education: {
     degrees: [
@@ -275,5 +273,5 @@ window.CV_DATA_RU = {
     { name: "Русский", level: "Родной" },
     { name: "Английский", level: "B2 (Upper-Intermediate) · рабочий уровень для документации, code-review, технических митингов" }
   ],
-  additional: "Права категории B, собственный автомобиль. Готов к переезду и командировкам."
+  additional: "Готов к переезду и командировкам."
 };
