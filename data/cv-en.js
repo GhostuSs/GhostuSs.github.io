@@ -12,7 +12,7 @@ window.CV_DATA_EN = {
     location: "Saint Petersburg · Remote / open to relocation",
     contacts: [
       { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" },
-      { label: "Email", value: "maks.makis@ya.ru", href: "mailto:maks.makis@ya.ru", icon: "email" },
+      { label: "Email", value: "maximusdrlor@gmail.com", href: "mailto:maximusdrlor@gmail.com", icon: "email" },
       { label: "Phone", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
       { label: "LinkedIn", value: "Maksim Movchan", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" }

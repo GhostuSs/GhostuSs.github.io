@@ -8,20 +8,14 @@ const path = require('path');
 
 // Extra CSS injected only during PDF generation — hides more to fit 2 pages
 const PDF_EXTRA_CSS = `
-  /* 1 bullet per project maximum */
-  .bullets li:nth-child(n+2) { display: none !important; }
+  /* Keep max 2 bullets per list (projects + general) */
+  .bullets li:nth-child(n+3) { display: none !important; }
 
   /* Keep max 3 projects per experience block */
-  .projects .project:nth-child(n+4) { display: none !important; }
+  .projects .project:nth-of-type(n+4) { display: none !important; }
 
-  /* Keep max 2 freelance projects */
-  #section-experience .exp:nth-child(2) .project:nth-child(n+3) { display: none !important; }
-
-  /* Hide MCArt experience entirely */
-  #section-experience .exp:nth-child(3) { display: none !important; }
-
-  /* Hide own-products description */
-  #section-own-products .exp-desc { display: none !important; }
+  /* Hide MCArt experience entirely (3rd .exp in #section-experience) */
+  #section-experience .exp:nth-of-type(3) { display: none !important; }
 
   /* Extra tight spacing */
   .section { margin-bottom: 5pt !important; }

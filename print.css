@@ -47,10 +47,12 @@
     padding: 0 !important;
   }
 
-  /* ---- HERO ---- */
+  /* ---- HERO (no photo in PDF) ---- */
+  .hero-photo { display: none !important; }
+
   .hero {
-    grid-template-columns: 1fr 80px !important;
-    gap: 10px !important;
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
     padding-bottom: 6px !important;
     margin-bottom: 8px !important;
     border-bottom: 1px solid #ccc !important;
@@ -190,6 +192,9 @@
   /* Links — hide URLs */
   a[href]::after { content: "" !important; }
   a { text-decoration: none !important; color: inherit !important; }
+
+  /* Force scroll-reveal elements visible in print */
+  [data-anim] { opacity: 1 !important; animation: none !important; transform: none !important; }
 
   h1, h2, h3, h4 { page-break-after: avoid; }
   p, li { orphans: 2; widows: 2; }
