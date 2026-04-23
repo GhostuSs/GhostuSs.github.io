@@ -53,9 +53,7 @@ window.CV_DATA_RU = {
       note: "Внутренний перевод: «Газпромнефть-Снабжение» → «Газпромнефть-Цифровые решения» в январе 2025; команда переехала целиком.",
       description: "Панклаб — сквозная digital-команда внутри Группы «Газпром нефть», организованная в 3 бизнес-юнита (Web / Продукты / Цифровой завод). Обслуживает все компании холдинга и внешний рынок.",
       generalBullets: [
-        "Пришёл в команду 5-м в 2022; команда выросла до 28 человек — рост ×5.6 за 4 года.",
-        "Продакшн-релизы в App Store, Google Play, RuStore для 5+ корпоративных продуктов.",
-        "Compliance-driven App Store publishing expertise — публикация при операционных ограничениях материнской компании (дебрендинг, параллельные developer-accounts, подмена функционала).",
+        "Пришёл в команду 5-м в 2022; команда выросла до 28 человек за 4 года.",
         "С 2025 — совмещение ролей разработчика и PM на ключевом продукте команды."
       ],
       projects: [
@@ -64,11 +62,9 @@ window.CV_DATA_RU = {
           role: "Lead Developer + Project Manager",
           stack: "Flutter · Clean Architecture · offline-first",
           bullets: [
-            "Спроектировал и разработал с нуля; единолично веду и поддерживаю продукт 3+ года (версия 2.4.0, 20 000+ установок в RuStore).",
-            "Получил 2 свидетельства Роспатент о государственной регистрации программы для ЭВМ (iOS + Android версии, 2025).",
-            "Продукт внесён в Единый реестр российского ПО (Минцифры, 2025–2026).",
-            "Финалист REXA-2025 (Russian Employee Experience Awards — национальная премия за цифровой опыт сотрудников и внутренние коммуникации) и премии «Люди прогресса».",
-            "Архитектура: миграция GetX → Provider → Clean Architecture."
+            "Спроектировал и разработал с нуля; единолично веду продукт 3+ года (20 000+ установок в RuStore).",
+            "2 свидетельства Роспатент + запись в Едином реестре российского ПО (Минцифры).",
+            "Финалист REXA-2025 и премии «Люди прогресса»."
           ]
         },
         {
@@ -95,19 +91,8 @@ window.CV_DATA_RU = {
           role: "Lead Flutter Developer",
           stack: "Flutter · Clean Architecture",
           bullets: [
-            "Спроектировал целевую архитектуру, выполнил миграцию GetX → Provider + Clean Architecture.",
-            "Публикация в RuStore и App Store; offline-first с автосинхронизацией.",
-            "Координировал работу web- и backend-команд в спринтах; версия 2.4.12 на апрель 2026."
-          ]
-        },
-        {
-          name: "Алтайское Подворье + Глэмпинг",
-          role: "Solo Mobile Developer",
-          stack: "Flutter",
-          bullets: [
-            "2 приложения для одного клиента (Подворье → Глэмпинг); клиент вернулся за вторым продуктом.",
-            "Полный цикл разработки и поддержки, 2+ года в продакшене без вмешательств.",
-            "Уменьшил размер сборки на 30% через рефакторинг; миграция на актуальную версию Flutter."
+            "Спроектировал целевую архитектуру, выполнил миграцию GetX → Clean Architecture.",
+            "Публикация в RuStore и App Store; offline-first с автосинхронизацией."
           ]
         }
       ]
@@ -124,11 +109,9 @@ window.CV_DATA_RU = {
           period: "Декабрь 2025 — май 2026",
           stack: "Flutter · Drift · Swift · Kotlin",
           bullets: [
-            "Мобильное приложение для доставки готовых блюд и напитков с self-service kiosk-режимом для HoReCa-терминалов.",
-            "Единоличная разработка от нуля до релиза: 9 экранов, 25 use cases, Clean Architecture, отдельная kiosk-ветка.",
-            "Интеграции: Alfa Pay SDK, Сбер UPOS TSP payment terminal (research-prototype native Android Kotlin + AIDL IPC + EMV/TTK protocol).",
-            "iOS Native: Live Activities для real-time трекинга заказов (Swift).",
-            "Security-audit backend (Bagisto / Laravel) и клиента через Shannon (OSS AI-pentester) до релиза."
+            "Мобильное приложение для доставки готовых блюд с self-service kiosk-режимом для HoReCa.",
+            "Единоличная разработка от нуля до релиза: Clean Architecture, iOS Live Activities, отдельная kiosk-ветка.",
+            "Интеграции: Alfa Pay SDK, платёжный терминал Сбер UPOS (Android native prototype)."
           ]
         },
         {
@@ -162,8 +145,7 @@ window.CV_DATA_RU = {
       description: "Первая коммерческая работа.",
       generalBullets: [
         "Разработка основного функционала мобильного продукта.",
-        "Миграция состояния с MobX на BLoC.",
-        "Участие в проектировании архитектуры и предрелизной стабилизации."
+        "Миграция состояния с MobX на BLoC; участие в проектировании архитектуры."
       ]
     }
   ],
@@ -172,11 +154,10 @@ window.CV_DATA_RU = {
       name: "kpl360 (КУПОЛ.360)",
       role: "Technical Co-founder",
       period: "Февраль 2026 — настоящее время",
-      description: "EdTech-платформа безопасности для образовательных учреждений: SOS-сценарии, профилактические уроки, ежедневные вопросы безопасности, тренировочные тесты, push-уведомления. Команда: 3 сооснователя; моя зона — полная техническая реализация.",
+      description: "EdTech-платформа безопасности для образовательных учреждений: SOS-сценарии, профилактические уроки, тренировочные тесты.",
       bullets: [
-        "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend, админ-панель.",
-        "Интеграции: Sentry, Firebase (Auth, FCM, Remote Config), OTP-autofill, iOS Live Activities для тревог, платежи. Security-audit через Shannon (OSS AI-pentester) перед запуском.",
-        "Запущена пилотная эксплуатация на 2 образовательных учреждениях через TestFlight; production-релиз в App Store / Google Play — Q3 2026."
+        "Solo technical delivery end-to-end: Flutter mobile, FastAPI backend, админ-панель; интеграции Firebase, iOS Live Activities, платежи.",
+        "Пилот на 2 учреждениях через TestFlight; production-релиз — Q3 2026."
       ]
     }
   ],
@@ -218,35 +199,20 @@ window.CV_DATA_RU = {
       ]
     },
     opensource: {
-      label: "Open-source contribution",
+      label: "Open-source",
       items: [
-        "Автор Flutter SDK consta_analytics на pub.dev (v1.0.4, 115 pub points) — offline-first event queue с Hive-fallback и типизированным event API"
-      ]
-    },
-    shipping: {
-      label: "Shipping track record",
-      items: [
-        "6+ живых мобильных продуктов в App Store, Google Play, RuStore (включая продукт с 20 000+ установок)",
-        "Диверсифицированный опыт: B2B · B2C · EdTech · FoodTech / E-commerce"
+        "Автор Flutter SDK consta_analytics на pub.dev — offline-first event queue с типизированным event API"
       ]
     }
   },
   skills: [
-    { group: "Языки", items: ["Dart (primary)", "Swift (maintenance & publishing)", "Kotlin (research / prototyping)"] },
-    { group: "Mobile & Cross-platform", items: ["Flutter 3.x", "Dart 3.x", "Clean Architecture", "Feature-based architecture"] },
-    { group: "State Management & Logic", items: ["Custom BLoC на RxDart (BehaviorSubject / Stream)", "Provider", "dartz (Either<Failure, T>) для функциональной обработки ошибок"], note: "Прошлый опыт: GetX (миграции в сторону Clean Architecture)" },
-    { group: "Navigation & DI", items: ["auto_route", "go_router", "injectable", "get_it"] },
-    { group: "Networking", items: ["Dio + interceptors", "WebSocket", "REST API design"] },
-    { group: "Persistence", items: ["Drift (SQLite, type-safe)", "Hive", "shared_preferences", "flutter_secure_storage"] },
-    { group: "Code Generation", items: ["freezed", "json_serializable", "build_runner", "flutter_gen"] },
-    { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing, maintenance", "Android Native (Kotlin) — research-level (нативные прототипы)", "Platform Channels", "Deep Links", "Flavors"] },
-    { group: "Payments / SDK", items: ["RevenueCat", "Alfa Pay SDK", "YooKassa", "SberPay", "CloudPayments", "Tinkoff Pay"] },
-    { group: "Push / Notifications", items: ["Firebase Cloud Messaging", "OneSignal", "flutter_local_notifications", "iOS Live Activities"] },
-    { group: "Analytics / Observability", items: ["Firebase Analytics", "Firebase Crashlytics", "AppMetrica", "Amplitude", "Sentry"] },
-    { group: "CI/CD & DevTools", items: ["Codemagic", "GitHub Actions", "Bitbucket Pipelines"] },
-    { group: "Testing", items: ["Unit & Widget tests"] },
-    { group: "Full-stack delivery (AI-assisted)", items: ["End-to-end product delivery включая backend (FastAPI / Python) и admin panel"], note: "Без заявки на senior backend expertise; фокус на архитектурно-продуктовом ownership" },
-    { group: "AI-Augmented Development", items: ["Claude Code (code generation, review)", "Figma MCP (design-to-code)", "AI-assisted security audit перед релизом"] }
+    { group: "Языки", items: ["Dart", "Swift (publishing, maintenance)", "Kotlin (prototyping)"] },
+    { group: "Flutter & Архитектура", items: ["Flutter 3.x · Dart 3.x", "Clean Architecture", "Custom BLoC (RxDart)", "Provider", "dartz (Either<Failure, T>)", "auto_route · go_router", "injectable · get_it", "freezed · json_serializable"] },
+    { group: "Данные и сеть", items: ["Dio + interceptors", "WebSocket", "REST API design", "Drift (SQLite, type-safe)", "Hive", "flutter_secure_storage"] },
+    { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — прототипы", "Platform Channels", "Deep Links", "Flavors"] },
+    { group: "Интеграции и платежи", items: ["Alfa Pay · YooKassa · SberPay · CloudPayments · Tinkoff", "RevenueCat", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · AppMetrica · Amplitude"] },
+    { group: "CI/CD и тестирование", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines", "Unit & Widget tests"] },
+    { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) и admin panel", "Claude Code, Figma MCP"], note: "Архитектурно-продуктовый ownership, без заявки на senior backend" }
   ],
   education: {
     degrees: [

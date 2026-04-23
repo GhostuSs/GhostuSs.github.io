@@ -53,9 +53,7 @@ window.CV_DATA_EN = {
       note: "Internal transfer from Gazpromneft-Supply to Gazpromneft-Digital Solutions in January 2025; the entire team moved together.",
       description: "punklab is a cross-functional digital unit inside the Gazprom Neft Group, organized into 3 business units (Web / Products / Custom Development). Delivers products to Gazprom Neft group companies and the external market.",
       generalBullets: [
-        "Joined as the 5th team member in 2022; unit scaled to 28 people — 5.6× growth over 4 years.",
-        "Production releases in App Store, Google Play, RuStore across 5+ corporate products.",
-        "Compliance-driven App Store publishing expertise — shipping products under parent-company operational constraints (rebranding, parallel developer accounts, feature substitution).",
+        "Joined as the 5th team member in 2022; unit scaled to 28 people over 4 years.",
         "Since 2025 — combined Developer + Project Manager roles on a key team product."
       ],
       projects: [
@@ -64,11 +62,9 @@ window.CV_DATA_EN = {
           role: "Lead Developer + Project Manager",
           stack: "Flutter · Clean Architecture · Offline-first",
           bullets: [
-            "Designed, built and solo-maintained from scratch for 3+ years (version 2.4.0, 20,000+ RuStore installs).",
-            "Obtained 2 RosPatent software copyrights (iOS + Android versions, 2025) — Russian federal state-issued IP registration.",
-            "Product listed in the Unified Register of Russian Software (Ministry of Digital Development, 2025–2026).",
-            "Finalist: REXA-2025 (Russian Employee Experience Awards — national award for digital employee experience & internal communications) and 'People of Progress' award.",
-            "Architecture: GetX → Provider → Clean Architecture migrations."
+            "Designed, built and solo-maintained from scratch for 3+ years (20,000+ RuStore installs).",
+            "2 RosPatent software copyrights + listing in the Unified Register of Russian Software.",
+            "Finalist: REXA-2025 and 'People of Progress' awards."
           ]
         },
         {
@@ -95,19 +91,8 @@ window.CV_DATA_EN = {
           role: "Lead Flutter Developer",
           stack: "Flutter · Clean Architecture",
           bullets: [
-            "Designed the target architecture; executed GetX → Provider + Clean Architecture migration.",
-            "Published in RuStore and App Store; offline-first with auto-sync.",
-            "Coordinated web and backend teams across sprints; version 2.4.12 as of April 2026."
-          ]
-        },
-        {
-          name: "Altay Podvorye + Glamping",
-          role: "Solo Mobile Developer",
-          stack: "Flutter",
-          bullets: [
-            "2 apps for one client (Podvorye → Glamping); client returned for the second product.",
-            "Full-cycle development and support, 2+ years in production without interventions.",
-            "Reduced build size by 30% through refactoring; migrated to latest Flutter."
+            "Designed the target architecture; executed GetX → Clean Architecture migration.",
+            "Published in RuStore and App Store; offline-first with auto-sync."
           ]
         }
       ]
@@ -125,10 +110,8 @@ window.CV_DATA_EN = {
           stack: "Flutter · Drift · Swift · Kotlin",
           bullets: [
             "Mobile app for food delivery with a self-service kiosk mode for HoReCa terminals.",
-            "Solo development from scratch to release: 9 screens, 25 use cases, Clean Architecture, separate kiosk branch.",
-            "Integrations: Alfa Pay SDK; Sberbank UPOS TSP payment terminal (research prototype in native Android Kotlin + AIDL IPC + EMV/TLV protocol analysis).",
-            "iOS Native: Live Activities for real-time order tracking (Swift).",
-            "Security audit of backend (Bagisto / Laravel) and mobile client via Shannon (OSS AI pentester) prior to launch."
+            "Solo development from scratch to release: Clean Architecture, iOS Live Activities, separate kiosk branch.",
+            "Integrations: Alfa Pay SDK, Sberbank UPOS payment terminal (Android native prototype)."
           ]
         },
         {
@@ -162,8 +145,7 @@ window.CV_DATA_EN = {
       description: "First commercial role.",
       generalBullets: [
         "Developed core product functionality.",
-        "Executed MobX → BLoC state-management migration.",
-        "Contributed to architecture design and pre-release stabilization."
+        "Executed MobX → BLoC state-management migration; contributed to architecture design."
       ]
     }
   ],
@@ -172,11 +154,10 @@ window.CV_DATA_EN = {
       name: "kpl360 (KUPOL.360)",
       role: "Technical Co-founder",
       period: "Feb 2026 — Present",
-      description: "EdTech safety platform for educational institutions: SOS scenarios, preventive lessons, daily safety questions, training tests, push notifications. Team: 3 co-founders; I own the full technical implementation.",
+      description: "EdTech safety platform for educational institutions: SOS scenarios, preventive lessons, training tests.",
       bullets: [
-        "Solo technical delivery end-to-end: Flutter mobile (iOS + Android), FastAPI + Python backend, admin panel.",
-        "Integrations: Sentry, Firebase (Auth, FCM, Remote Config), OTP autofill, iOS Live Activities for alarms, payments. Security audit via Shannon (OSS AI pentester) prior to launch.",
-        "Pilot deployment at 2 educational institutions via TestFlight; App Store / Google Play production release — Q3 2026."
+        "Solo technical delivery end-to-end: Flutter mobile, FastAPI backend, admin panel; integrations Firebase, iOS Live Activities, payments.",
+        "Pilot at 2 institutions via TestFlight; production release — Q3 2026."
       ]
     }
   ],
@@ -218,35 +199,20 @@ window.CV_DATA_EN = {
       ]
     },
     opensource: {
-      label: "Open-source contribution",
+      label: "Open-source",
       items: [
-        "Author of consta_analytics Flutter SDK on pub.dev (v1.0.4, 115 pub points) — offline-first event queue with Hive fallback and a typed event API"
-      ]
-    },
-    shipping: {
-      label: "Shipping track record",
-      items: [
-        "6+ live mobile products across App Store, Google Play, RuStore (including a product with 20,000+ installs)",
-        "Diversified domain experience: B2B · B2C · EdTech · FoodTech / E-commerce"
+        "Author of consta_analytics Flutter SDK on pub.dev — offline-first event queue with a typed event API"
       ]
     }
   },
   skills: [
-    { group: "Languages", items: ["Dart (primary)", "Swift (maintenance & publishing)", "Kotlin (research / prototyping)"] },
-    { group: "Mobile & Cross-platform", items: ["Flutter 3.x", "Dart 3.x", "Clean Architecture", "Feature-based architecture"] },
-    { group: "State Management & Logic", items: ["Custom BLoC on RxDart (BehaviorSubject / Stream)", "Provider", "dartz (Either<Failure, T>) for functional error handling"], note: "Prior experience: GetX (led migrations toward Clean Architecture)" },
-    { group: "Navigation & DI", items: ["auto_route", "go_router", "injectable", "get_it"] },
-    { group: "Networking", items: ["Dio + interceptors", "WebSocket", "REST API design"] },
-    { group: "Persistence", items: ["Drift (SQLite, type-safe)", "Hive", "shared_preferences", "flutter_secure_storage"] },
-    { group: "Code Generation", items: ["freezed", "json_serializable", "build_runner", "flutter_gen"] },
-    { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing, maintenance", "Android Native (Kotlin) — research-level (native prototypes)", "Platform Channels", "Deep Links", "Flavors"] },
-    { group: "Payments / SDKs", items: ["RevenueCat", "Alfa Pay SDK", "YooKassa", "SberPay", "CloudPayments", "Tinkoff Pay"] },
-    { group: "Push / Notifications", items: ["Firebase Cloud Messaging", "OneSignal", "flutter_local_notifications", "iOS Live Activities"] },
-    { group: "Analytics / Observability", items: ["Firebase Analytics", "Firebase Crashlytics", "AppMetrica", "Amplitude", "Sentry"] },
-    { group: "CI/CD & DevTools", items: ["Codemagic", "GitHub Actions", "Bitbucket Pipelines"] },
-    { group: "Testing", items: ["Unit & Widget tests"] },
-    { group: "Full-stack delivery (AI-assisted)", items: ["End-to-end product delivery including backend (FastAPI / Python) and admin panel"], note: "Not claiming senior backend expertise; focus on architecture-level product ownership" },
-    { group: "AI-Augmented Development", items: ["Claude Code (code generation, review)", "Figma MCP (design-to-code)", "AI-assisted security audit prior to release"] }
+    { group: "Languages", items: ["Dart", "Swift (publishing, maintenance)", "Kotlin (prototyping)"] },
+    { group: "Flutter & Architecture", items: ["Flutter 3.x · Dart 3.x", "Clean Architecture", "Custom BLoC (RxDart)", "Provider", "dartz (Either<Failure, T>)", "auto_route · go_router", "injectable · get_it", "freezed · json_serializable"] },
+    { group: "Data & Networking", items: ["Dio + interceptors", "WebSocket", "REST API design", "Drift (SQLite, type-safe)", "Hive", "flutter_secure_storage"] },
+    { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — prototypes", "Platform Channels", "Deep Links", "Flavors"] },
+    { group: "Integrations & Payments", items: ["Alfa Pay · YooKassa · SberPay · CloudPayments · Tinkoff", "RevenueCat", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · AppMetrica · Amplitude"] },
+    { group: "CI/CD & Testing", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines", "Unit & Widget tests"] },
+    { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) and admin panel", "Claude Code, Figma MCP"], note: "Architecture-level product ownership, not claiming senior backend expertise" }
   ],
   education: {
     degrees: [

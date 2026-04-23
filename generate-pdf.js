@@ -8,12 +8,6 @@ const path = require('path');
 
 // Extra CSS injected only during PDF generation — hides more to fit 2 pages
 const PDF_EXTRA_CSS = `
-  /* Keep max 2 bullets per list (projects + general) */
-  .bullets li:nth-child(n+3) { display: none !important; }
-
-  /* Keep max 3 projects per experience block */
-  .projects .project:nth-of-type(n+4) { display: none !important; }
-
   /* Hide MCArt experience entirely (3rd .exp in #section-experience) */
   #section-experience .exp:nth-of-type(3) { display: none !important; }
 
