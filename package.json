@@ -1,0 +1,11 @@
+{
+  "name": "cv-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pdf": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}

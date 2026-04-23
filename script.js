@@ -511,7 +511,10 @@
 
     // lang toggle listeners
     $$('.lang-btn').forEach((btn) => {
-      btn.addEventListener('click', () => setLang(btn.dataset.lang));
+      btn.addEventListener('click', () => {
+        setLang(btn.dataset.lang);
+        updateDownloadBtn(btn.dataset.lang);
+      });
     });
 
     // theme toggle
@@ -523,13 +526,14 @@
       });
     }
 
-    // print/PDF — uses browser's native Save as PDF dialog with print-CSS applied
-    const printBtn = $('#print-btn');
-    if (printBtn) {
-      printBtn.addEventListener('click', () => {
-        window.print();
-      });
+    // download PDF — links to pre-generated static file
+    function updateDownloadBtn(lang) {
+      const btn = $('#download-btn');
+      if (!btn) return;
+      btn.href = `assets/cv-${lang}.pdf`;
+      btn.download = lang === 'ru' ? 'Movchan_CV_RU.pdf' : 'Movchan_CV_EN.pdf';
     }
+    updateDownloadBtn(state.lang);
 
     // keyboard shortcut: Cmd/Ctrl + P handled natively
   }
