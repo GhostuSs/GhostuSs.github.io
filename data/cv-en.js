@@ -226,9 +226,7 @@ window.CV_DATA_EN = {
       }
     ],
     courses: [
-      { year: "2024", name: "Russian IT: Industry Trends and Project Delivery Approaches", provider: "Sirius Scientific and Technological University" },
-      { year: "2023", name: "Flutter Developer", provider: "Surf" },
-      { year: "2022", name: "Advanced Flutter Development", provider: "Artem Zaitsev (ex-Head of Flutter at Surf)" }
+      { year: "2024", name: "Russian IT: Industry Trends and Project Delivery Approaches", provider: "Sirius Scientific and Technological University" }
     ]
   },
   languages: [

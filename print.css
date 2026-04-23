@@ -35,7 +35,6 @@
   #section-teaching,
   .exp-note,
   .exp-desc,
-  .edu-courses,
   .section-kicker,
   .spoiler-hint {
     display: none !important;
@@ -186,7 +185,7 @@
 
   /* ---- LANGUAGES ---- */
   .lang-list li     { font-size: 7.5pt !important; }
-  .additional-block { font-size: 7pt !important; margin-top: 4pt !important; padding-top: 4pt !important; }
+  .additional-block { font-size: 7pt !important; margin-top: 2pt !important; padding-top: 2pt !important; }
 
   /* Links — hide URLs */
   a[href]::after { content: "" !important; }
