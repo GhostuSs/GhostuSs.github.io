@@ -77,6 +77,7 @@
           <p class="hero-role">${esc(header.role)}</p>
           <p class="hero-tagline">${esc(header.tagline)}</p>
           <p class="hero-location">${esc(header.location)}</p>
+          <p class="hero-readtime" data-slot="readtime"></p>
           <ul class="contacts">${contacts}</ul>
         </div>
         <div class="hero-photo">
@@ -84,6 +85,13 @@
         </div>
       </section>
     `;
+  }
+
+  function computeReadTime(root) {
+    const text = root.textContent || '';
+    const words = text.trim().split(/\s+/).filter(Boolean).length;
+    const minutes = Math.max(1, Math.round(words / 200));
+    return minutes;
   }
 
   function renderAbout(data) {
@@ -421,6 +429,13 @@
 
     // collapsible sections (achievements starts collapsed)
     setupCollapsible(root, '#section-achievements');
+
+    // read time estimate
+    const readSlot = $('[data-slot="readtime"]', root);
+    if (readSlot) {
+      const mins = computeReadTime(root);
+      readSlot.textContent = state.lang === 'ru' ? `≈ ${mins} мин чтения` : `≈ ${mins} min read`;
+    }
 
     // scroll-reveal
     const skipVisible = !firstRender;

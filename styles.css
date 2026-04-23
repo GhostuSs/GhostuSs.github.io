@@ -231,6 +231,14 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 .hero-location {
   font-size: 0.9375rem;
   color: var(--text-muted);
+  margin: 0 0 6px;
+}
+
+.hero-readtime {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-subtle);
+  letter-spacing: 0.02em;
   margin: 0 0 var(--gap-lg);
 }
 

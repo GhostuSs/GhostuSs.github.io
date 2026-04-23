@@ -36,7 +36,8 @@
   .exp-note,
   .exp-desc,
   .section-kicker,
-  .spoiler-hint {
+  .spoiler-hint,
+  .hero-readtime {
     display: none !important;
   }
 
