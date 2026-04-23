@@ -110,8 +110,10 @@
     });
     // Skill chips: count each as ~0.5 word (glance/scan)
     $$('.skill-chips li', root).forEach(() => { words += 0.5; });
-    const minutes = Math.max(1, Math.round(words / 250));
-    return minutes;
+    // E/F-pattern range: scan (400 wpm) → full read (200 wpm)
+    const scan = Math.max(1, Math.round(words / 400));
+    const read = Math.max(1, Math.round(words / 200));
+    return scan === read ? `${scan}` : `${scan}–${read}`;
   }
 
   function renderAbout(data) {
