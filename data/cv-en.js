@@ -1,7 +1,7 @@
 window.CV_DATA_EN = {
   meta: {
     title: "Maksim Movchan — Flutter Developer",
-    description: "Flutter Developer with 4+ years at Gazprom Neft. 6+ live apps, 2 federal software copyrights, published pub.dev SDK. Mobile dev educator.",
+    description: "Flutter Developer with 4+ years at Gazprom Neft. 6 live apps, 2 federal software copyrights, open-source pub.dev package. Mobile dev educator.",
     lang: "en"
   },
   header: {
@@ -42,7 +42,7 @@ window.CV_DATA_EN = {
     format: "Remote · Hybrid · Relocation considered"
   },
   about: [
-    "Flutter Developer with 4+ years at a cross-functional unit inside Gazprom Neft. Author of 6 mobile products in App Store, Google Play and RuStore — including a product with 2 Russian federal software copyrights (RosPatent) and listing in the Unified Register of Russian Software (Ministry of Digital Development). Published Flutter SDK on pub.dev. Since 2025, combining engineering with project ownership: leading a team, coordinating cross-functional tracks, and managing client communication."
+    "Flutter Developer, 4+ years at Gazprom Neft Group. 6 mobile products across App Store, Google Play and RuStore. Open-source package on pub.dev. Since 2025 — combining engineering and project management on a key team product."
   ],
   experience: [
     {
@@ -117,7 +117,7 @@ window.CV_DATA_EN = {
           stack: "Flutter · Clean Architecture · Custom BLoC",
           bullets: [
             "Mobile app for a chain of beauty salons: online booking, service catalogue, push notifications, loyalty.",
-            "Owned the project end-to-end: from client brief to RuStore publication.",
+            "Owned the project end-to-end: from client brief to RuStore and App Store publication.",
             "Team Lead + PM: assembled the team (QA, backend, UX/UI — 4 people), ran processes."
           ]
         },
@@ -197,7 +197,7 @@ window.CV_DATA_EN = {
     opensource: {
       label: "Open-source",
       items: [
-        "Author of consta_analytics Flutter SDK on pub.dev — offline-first event queue with a typed event API"
+        "Author of open-source consta_analytics package on pub.dev — offline-first event queue with a typed event API"
       ]
     }
   },

@@ -1,7 +1,7 @@
 window.CV_DATA_RU = {
   meta: {
     title: "Максим Мовчан — Flutter Developer",
-    description: "Ведущий Flutter-разработчик, 4+ года в «Газпром нефти». 6+ продуктов в сторах, 2 свидетельства Роспатент, SDK на pub.dev. Преподаватель Flutter.",
+    description: "Flutter-разработчик, 4+ года в «Газпром нефти». 6 продуктов в сторах, 2 свидетельства Роспатент, пакет на pub.dev. Преподаватель Flutter.",
     lang: "ru"
   },
   header: {
@@ -42,7 +42,7 @@ window.CV_DATA_RU = {
     format: "Удалённо, гибрид, релокация рассматривается"
   },
   about: [
-    "Flutter-разработчик с 4+ годами продуктового опыта внутри Группы «Газпром нефть». Автор 6 мобильных продуктов в App Store, Google Play и RuStore — в том числе приложения с 2 свидетельствами Роспатент и записью в Едином реестре российского ПО (Минцифры). Автор Flutter SDK на pub.dev. С 2025 года совмещаю инженерную роль с управлением проектом: веду команду, координирую смежные треки, общаюсь с заказчиком."
+    "Flutter-разработчик, 4+ года в Группе «Газпром нефть». 6 мобильных продуктов в App Store, Google Play и RuStore. Open-source пакет на pub.dev. С 2025 совмещаю разработку и проектный менеджмент на ключевом продукте команды."
   ],
   experience: [
     {
@@ -117,7 +117,7 @@ window.CV_DATA_RU = {
           stack: "Flutter · Clean Architecture · Custom BLoC",
           bullets: [
             "Мобильное приложение для сети салонов красоты: онлайн-запись, каталог услуг, push-уведомления, лояльность.",
-            "Вёл проект с нуля: от брифа заказчика до публикации в RuStore.",
+            "Вёл проект с нуля: от брифа заказчика до публикации в RuStore и App Store.",
             "Team Lead + PM: подбирал команду (QA, backend, UX/UI — 4 человека), координировал процессы."
           ]
         },
@@ -197,7 +197,7 @@ window.CV_DATA_RU = {
     opensource: {
       label: "Open-source",
       items: [
-        "Автор Flutter SDK consta_analytics на pub.dev — offline-first event queue с типизированным event API"
+        "Автор open-source пакета consta_analytics на pub.dev — offline-first event queue с типизированным event API"
       ]
     }
   },
