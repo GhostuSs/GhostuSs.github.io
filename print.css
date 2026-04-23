@@ -4,7 +4,7 @@
 
 @page {
   size: A4;
-  margin: 10mm 11mm 12mm 11mm;
+  margin: 8mm 10mm 10mm 10mm;
 }
 
 @media print {
@@ -25,13 +25,19 @@
   body {
     background: #ffffff !important;
     color: #0a0a0a !important;
-    font-size: 8.5pt !important;
-    line-height: 1.35 !important;
+    font-size: 8pt !important;
+    line-height: 1.3 !important;
   }
 
-  /* Hide UI chrome and redundant sections */
+  /* ---- Hide chrome + non-essential sections ---- */
   .topbar, .cv-footer, .theme-toggle, .print-btn, .lang-toggle,
-  #section-position {
+  #section-position,
+  #section-teaching,
+  .exp-note,
+  .exp-desc,
+  .edu-courses,
+  .section-kicker,
+  .spoiler-hint {
     display: none !important;
   }
 
@@ -43,54 +49,41 @@
 
   /* ---- HERO ---- */
   .hero {
-    grid-template-columns: 1fr 90px !important;
-    gap: 12px !important;
-    padding-bottom: 8px !important;
-    margin-bottom: 10px !important;
+    grid-template-columns: 1fr 80px !important;
+    gap: 10px !important;
+    padding-bottom: 6px !important;
+    margin-bottom: 8px !important;
     border-bottom: 1px solid #ccc !important;
     page-break-inside: avoid;
   }
 
   .hero-text h1 {
-    font-size: 22pt !important;
+    font-size: 20pt !important;
     line-height: 1.0 !important;
     margin-bottom: 2px !important;
   }
 
-  .hero-role {
-    font-size: 10pt !important;
-    margin-bottom: 1px !important;
-  }
-
-  .hero-tagline {
-    font-size: 7.5pt !important;
-    margin-bottom: 3px !important;
-  }
-
-  .hero-location {
-    font-size: 7.5pt !important;
-    margin-bottom: 4px !important;
-  }
+  .hero-role   { font-size: 9.5pt !important; margin-bottom: 1px !important; }
+  .hero-tagline { font-size: 7pt !important; margin-bottom: 2px !important; }
+  .hero-location { font-size: 7pt !important; margin-bottom: 4px !important; }
 
   .hero-photo {
-    width: 90px !important;
-    height: 90px !important;
+    width: 80px !important;
+    height: 80px !important;
     border: 1px solid #ccc !important;
   }
 
   .contacts {
     grid-template-columns: repeat(3, 1fr) !important;
-    gap: 2px 8px !important;
-    margin-top: 4px !important;
+    gap: 2px 6px !important;
+    margin-top: 3px !important;
   }
 
-  .contact { font-size: 7.5pt !important; }
+  .contact { font-size: 7pt !important; }
+  .contact .icon { width: 11px !important; height: 11px !important; }
 
   /* ---- SECTIONS ---- */
-  .section {
-    margin-bottom: 8pt !important;
-    page-break-inside: avoid;
-  }
+  .section { margin-bottom: 7pt !important; }
 
   .section:has(> .projects),
   .section:has(> .skills-grid) {
@@ -98,125 +91,104 @@
   }
 
   .section-head {
-    margin-bottom: 5pt !important;
+    margin-bottom: 4pt !important;
     padding-bottom: 2pt !important;
     border-bottom: 1px solid #ccc !important;
   }
 
-  .section-title {
-    font-size: 10pt !important;
-    line-height: 1.2 !important;
-  }
-
-  .section-kicker { display: none !important; }
+  .section-title { font-size: 9.5pt !important; line-height: 1.2 !important; }
 
   /* ---- ABOUT ---- */
-  .about p {
-    font-size: 8pt !important;
-    line-height: 1.4 !important;
-    margin-bottom: 0 !important;
-  }
+  .about p { font-size: 7.5pt !important; line-height: 1.35 !important; margin-bottom: 0 !important; }
 
   /* ---- EXPERIENCE ---- */
-  .exp {
-    margin-bottom: 7pt !important;
-    page-break-inside: auto;
-  }
+  .exp { margin-bottom: 6pt !important; }
 
-  /* Hide descriptive/contextual text — keep structure */
-  .exp-note, .exp-desc { display: none !important; }
+  .exp-company { font-size: 9pt !important; margin-bottom: 1pt !important; }
+  .exp-meta    { font-size: 7pt !important; margin-bottom: 2pt !important; }
 
-  .exp-company { font-size: 9.5pt !important; margin-bottom: 1pt !important; }
-  .exp-meta    { font-size: 7.5pt !important; margin-bottom: 2pt !important; }
+  /* Limit general bullets to 2 per block */
+  .exp > .bullets > li:nth-child(n+3) { display: none !important; }
 
   .bullets li {
-    font-size: 8pt !important;
-    line-height: 1.35 !important;
-    margin-bottom: 2pt !important;
-    padding-left: 10pt !important;
+    font-size: 7.5pt !important;
+    line-height: 1.3 !important;
+    margin-bottom: 1.5pt !important;
+    padding-left: 9pt !important;
   }
 
-  .bullets li::before {
-    top: 6pt !important;
-    width: 3pt !important;
-    height: 3pt !important;
-  }
+  .bullets li::before { top: 5.5pt !important; }
 
   /* ---- PROJECTS ---- */
-  .projects { gap: 5pt !important; margin-top: 4pt !important; }
+  .projects { gap: 4pt !important; margin-top: 3pt !important; }
 
   .project {
-    padding: 5pt 7pt !important;
-    background: #fafafa !important;
-    border-color: #d9d9d9 !important;
-    page-break-inside: avoid;
-  }
-
-  .project:hover { border-color: #d9d9d9 !important; }
-
-  .project-name   { font-size: 8.5pt !important; }
-  .project-role   { font-size: 7.5pt !important; }
-  .project-period { font-size: 7pt !important; }
-  .project-stack  { font-size: 7pt !important; margin-bottom: 3pt !important; }
-  .project .bullets li { font-size: 7.5pt !important; }
-
-  /* ---- ACHIEVEMENTS ---- */
-  .ach-group { margin-bottom: 5pt !important; page-break-inside: avoid; }
-  .ach-label { font-size: 7pt !important; margin-bottom: 2pt !important; }
-  .ach-list li {
-    font-size: 8pt !important;
-    padding-left: 12pt !important;
-    line-height: 1.35 !important;
-  }
-
-  /* ---- SKILLS: 3 columns ---- */
-  .skills-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-    gap: 4pt !important;
-  }
-
-  .skill-group {
     padding: 4pt 6pt !important;
     background: #fafafa !important;
     border-color: #d9d9d9 !important;
     page-break-inside: avoid;
   }
 
-  .skill-group-label { font-size: 8pt !important; margin-bottom: 3pt !important; }
+  /* Limit project bullets to 2 */
+  .project .bullets li:nth-child(n+3) { display: none !important; }
+
+  .project-name   { font-size: 8pt !important; }
+  .project-role   { font-size: 7pt !important; }
+  .project-period { font-size: 6.5pt !important; }
+  .project-stack  { font-size: 6.5pt !important; margin-bottom: 2pt !important; }
+  .project .bullets li { font-size: 7pt !important; }
+
+  /* ---- OWN PRODUCTS — show max 2 bullets ---- */
+  #section-own-products .bullets li:nth-child(n+3) { display: none !important; }
+
+  /* ---- ACHIEVEMENTS — show only top 2 groups ---- */
+  .ach-group:nth-child(n+3) { display: none !important; }
+  .ach-group { margin-bottom: 4pt !important; page-break-inside: avoid; }
+  .ach-label { font-size: 6.5pt !important; margin-bottom: 2pt !important; }
+  .ach-list li {
+    font-size: 7.5pt !important;
+    padding-left: 11pt !important;
+    line-height: 1.3 !important;
+  }
+
+  /* ---- SKILLS: 3 columns ---- */
+  .skills-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 3pt !important;
+  }
+
+  .skill-group {
+    padding: 3pt 5pt !important;
+    background: #fafafa !important;
+    border-color: #d9d9d9 !important;
+    page-break-inside: avoid;
+  }
+
+  .skill-group-label { font-size: 7.5pt !important; margin-bottom: 2pt !important; }
 
   .skill-chips { gap: 2pt !important; }
   .skill-chips li {
-    font-size: 6.5pt !important;
-    padding: 1pt 4pt !important;
+    font-size: 6pt !important;
+    padding: 1pt 3pt !important;
     background: #fff !important;
     border-color: #d0d0d0 !important;
   }
 
-  .skill-note { font-size: 7pt !important; margin-top: 2pt !important; }
+  .skill-note { font-size: 6.5pt !important; margin-top: 2pt !important; }
 
   /* ---- EDUCATION ---- */
-  .edu-list  { gap: 5pt !important; }
-  .edu-item  { padding: 3pt 8pt !important; page-break-inside: avoid; }
-  .edu-institution { font-size: 8.5pt !important; }
-  .edu-degree      { font-size: 8pt !important; }
-  .edu-meta        { font-size: 7.5pt !important; }
-
-  .edu-courses     { margin-top: 5pt !important; }
-  .edu-courses-head { font-size: 7pt !important; margin-bottom: 3pt !important; }
-  .course-list     { gap: 3pt !important; }
-  .course-list li  {
-    font-size: 7.5pt !important;
-    grid-template-columns: 36px 1fr !important;
-    gap: 5pt !important;
-  }
-  .course-year { font-size: 7pt !important; }
+  .edu-list  { gap: 4pt !important; }
+  .edu-item  { padding: 2pt 7pt !important; page-break-inside: avoid; }
+  .edu-institution { font-size: 8pt !important; }
+  .edu-degree      { font-size: 7.5pt !important; }
+  .edu-meta        { font-size: 7pt !important; }
 
   /* ---- LANGUAGES ---- */
-  .lang-list li    { font-size: 8pt !important; }
-  .additional-block { font-size: 7.5pt !important; margin-top: 5pt !important; padding-top: 5pt !important; }
+  .lang-list li     { font-size: 7.5pt !important; }
+  .additional-block { font-size: 7pt !important; margin-top: 4pt !important; padding-top: 4pt !important; }
 
   /* Links — hide URLs */
-  a[href]::after { content: ""; }
+  a[href]::after { content: "" !important; }
   a { text-decoration: none !important; color: inherit !important; }
 
   h1, h2, h3, h4 { page-break-after: avoid; }
