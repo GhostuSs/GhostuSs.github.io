@@ -198,7 +198,7 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
   align-items: start;
   padding-bottom: var(--gap-xl);
   border-bottom: 1px solid var(--border);
-  margin-bottom: var(--gap-2xl);
+  margin-bottom: var(--gap-xl);
 }
 
 .hero-text h1 {
@@ -279,7 +279,7 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 
 /* SECTIONS */
 .section {
-  margin-bottom: var(--gap-2xl);
+  margin-bottom: var(--gap-xl);
 }
 
 .section-head {
@@ -782,28 +782,39 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 }
 
 /* =========================================================
-   COLLAPSIBLE SECTIONS
+   COLLAPSIBLE SECTIONS — iOS-style chevron on the right
    ========================================================= */
 .collapsible-head {
   cursor: pointer;
   user-select: none;
+  align-items: center;
   transition: color 0.15s ease;
 }
 
 .collapsible-head:hover .section-title { color: var(--text-muted); }
 
-.collapsible-head .section-title::after {
-  content: "▾";
-  font-size: 0.55em;
-  color: var(--text-subtle);
-  margin-left: 14px;
-  display: inline-block;
-  vertical-align: middle;
-  transition: transform 0.2s ease;
+.collapsible-head .section-kicker { display: none; }
+
+.collapsible-head::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-right: 1.8px solid var(--text-subtle);
+  border-bottom: 1.8px solid var(--text-subtle);
+  transform: rotate(45deg);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: 4px;
+  flex-shrink: 0;
 }
 
-.section.collapsed .collapsible-head .section-title::after {
-  transform: rotate(-90deg);
+.collapsible-head:hover::after {
+  border-color: var(--text);
+}
+
+.section.collapsed .collapsible-head::after {
+  transform: rotate(-45deg);
 }
 
 .section.collapsed > .ach-group {
