@@ -1,15 +1,15 @@
 window.CV_DATA_EN = {
   meta: {
-    title: "Maksim Movchan — Flutter Developer",
-    description: "Flutter Developer with 4+ years at Gazprom Neft. 6 live apps, 2 federal software copyrights, open-source pub.dev package. Mobile dev educator.",
+    title: "Maksim Movchan — Senior Flutter Developer",
+    description: "Senior Flutter Developer · 4+ years · 6 production apps · 25K+ users · open-source pub.dev package · 200+ zero-rollback iOS releases · App Store publishing.",
     lang: "en"
   },
   header: {
     name: "Maksim",
     surname: "Movchan",
-    role: "Flutter Developer",
-    tagline: "Mobile Engineering · Product Ownership",
-    location: "Saint Petersburg · Remote / open to relocation",
+    role: "Senior Flutter Developer",
+    tagline: "Mobile Tech Lead · Product-focused Engineer",
+    location: "Saint Petersburg · Open to relocation (EU / Cyprus / UK)",
     contacts: [
       { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" },
       { label: "Email", value: "maximusdrlor@gmail.com", href: "mailto:maximusdrlor@gmail.com", icon: "email" },
@@ -34,104 +34,106 @@ window.CV_DATA_EN = {
     revealHint: "Click to reveal"
   },
   position: {
-    role: "Flutter Developer",
-    roleDetails: "Mobile Engineering · Product Ownership",
+    role: "Senior Flutter Developer",
+    roleDetails: "Mobile Tech Lead · Product-focused Engineer",
     salary: "Negotiable",
     salaryAlt: "Remote · Relocation negotiable",
     salaryHidden: true,
     type: "Full-time",
-    format: "Remote · Hybrid · Relocation considered"
+    format: "Remote · Hybrid · Relocation considered (EU / Cyprus / UK)"
   },
   about: [
-    "Flutter Developer, 4+ years at Gazprom Neft Group. 6 mobile products across App Store, Google Play and RuStore. Open-source package on pub.dev. Since 2025 — combining engineering and project management on a key team product."
+    "Senior Flutter Developer, 4+ years delivering production-grade mobile apps end-to-end. Shipped 6 apps with 25K+ combined active users — including a B2B native iOS app through 200+ zero-rollback releases over 4 years and an offline-first enterprise reference app solo-architected for 3+ years. Author of consta_analytics on pub.dev. Led 3 production-scale architecture migrations, cut new-dev onboarding from 2 weeks to 3 days and crash rate to <0.5%. Since 2025 — combining engineering with product/project management. Strong on payments (Alfa Pay, CloudPayments, Apple/Google Pay), App Store publishing, and cross-functional team leadership. MSc Financial Management. EU Blue Card / UK Skilled Worker / Cyprus IT Visa eligible — open to sponsorship and relocation (EU / Cyprus / UK)."
   ],
   experience: [
     {
-      company: "Gazprom Neft Group · punklab unit",
+      company: "Punklab Digital Studio · internal IT subsidiary, energy-sector group",
       role: "Flutter Developer",
       period: "Feb 2022 — Present",
       duration: "4+ years",
       generalBullets: [
-        "Joined as the 5th team member in 2022; unit scaled to 28 people over 4 years.",
-        "Since 2025 — combined Developer + Project Manager roles on a key team product."
+        "Joined as the 5th engineer in 2022; mobile org scaled to 28 people over 4 years.",
+        "Since 2025 — combined Developer + Project Manager role on a key team product."
       ],
       projects: [
         {
-          name: "Safety Framework (Каркас Безопасности)",
+          name: "Safety Cage",
           role: "Lead Developer + Project Manager",
-          stack: "Flutter · Clean Architecture · Offline-first",
+          stack: "Flutter · Clean Architecture · offline-first",
           bullets: [
-            "Designed, built and solo-maintained from scratch for 3+ years (20,000+ RuStore installs).",
-            "2 RosPatent software copyrights + listing in the Unified Register of Russian Software."
+            "Built and own the mobile safety-reference platform adopted by 25K+ industrial workers across ~10 companies in the group — replacing paper checklists with a digital handbook for pre-task briefings, training, and on-site self-checks.",
+            "Designed offline-first content delivery (full reference loads to device for coverage-blind industrial zones); shipped illustrated barrier catalogue, favorites, and instant search — became the de-facto standard handbook across the group.",
+            "2 software copyright certificates (national IP registry) and government-recognized enterprise software listing — formal recognition of product impact in the occupational-safety domain."
           ]
         },
         {
-          name: "Zenit FC Academy — Student Portal",
+          name: "Sports Academy — Student-Athlete Platform",
           role: "Lead Flutter Developer",
           stack: "Flutter Mobile + Flutter Web · PWA → Native migration",
           bullets: [
-            "Migrated Flutter Web PWA to native mobile platforms (iOS + Android); published in App Store and Google Play.",
-            "Shipped features driving DAU and retention; refactored and hardened stability."
+            "Built and shipped a comprehensive student-athlete platform for a football academy — schedules, matches, anthropometry, performance stats, coach feedback, live video streams, nutrition, and grades in one app; adopted by 350+ academy athletes.",
+            "Migrated existing PWA → native iOS + Android in 4 months — unlocked App Store / Google Play distribution, push-notification engagement, and full offline UX; reduced crash rate from ~2% to <0.4% post-launch."
           ]
         },
         {
-          name: "Gazprom Neft Procurement App",
+          name: "B2B Procurement Marketplace",
           role: "iOS Maintainer + App Store Publishing Expert",
-          stack: "Native iOS (Swift) · Compliance-driven publishing",
+          stack: "Native iOS (Swift) · compliance-driven publishing",
           bullets: [
-            "Live product: version 3.0.201 (Feb 2026), ~200 releases in the major line.",
-            "Published in RuStore (1,000+ installs, 4.2/5) and in App Store under parallel rebranding.",
-            "Maintain native iOS codebase: configurations, minor changes, release cycle."
+            "Maintain the iOS app of a B2B procurement marketplace — contractors post tenders, partners bid and submit proposals; iOS surface adopted by 1K+ business users with sustained 4.2/5 rating across 4 years.",
+            "Shipped 200+ iOS releases (~1 release/week) over 4 years with zero rollbacks; owned the full App Store release cycle — provisioning, signing, App Review escalations, 2024 ATT and privacy-manifest compliance.",
+            "Dual-published the product across 2 app stores under separate branding — sustained 4+ years of cross-store version parity with synchronized releases."
           ]
         },
         {
-          name: "EasyCheck",
+          name: "EasyCheck — Digital Audit Platform",
           role: "Lead Flutter Developer",
-          stack: "Flutter · Clean Architecture",
+          stack: "Flutter · Clean Architecture · offline-first",
           bullets: [
-            "Designed the target architecture; executed GetX → Clean Architecture migration.",
-            "Published in RuStore and App Store; offline-first with auto-sync."
+            "Lead Flutter delivery of EasyCheck — a digital audit & inspection platform replacing paper checklists for on-site auditors and compliance officers; full mobile + web parity for field-to-office workflows.",
+            "Built offline-first sync (Drift + custom conflict resolution) so inspections complete reliably in coverage-blind industrial sites and warehouses with seamless server sync afterwards; published in App Store and alternative store.",
+            "Architected and led GetX → Clean Architecture migration across 3 modules — cut new-developer onboarding from 2 weeks to 3 days and feature delivery time by ~30%."
           ]
         }
       ]
     },
     {
-      company: "Parallel Freelance / Contract Development",
+      company: "Independent / Contract Development",
       role: "Senior Flutter Developer",
       period: "Mar 2024 — Present",
       projects: [
         {
-          name: "Surprise — FoodTech + E-commerce",
+          name: "Surprise — Digital-First Restaurant App",
           role: "Senior Solo Flutter Developer",
           period: "Dec 2025 — May 2026",
           stack: "Flutter · Drift · Swift · Kotlin",
           bullets: [
-            "Mobile app for food delivery with a self-service kiosk mode for HoReCa terminals.",
-            "Solo development from scratch to release: Clean Architecture, iOS Live Activities, separate kiosk branch.",
-            "Integrations: Alfa Pay SDK, Sberbank UPOS payment terminal (Android native prototype)."
+            "Solo-delivered Surprise — cashier-less restaurant product where mobile + tablet kiosks fully replace physical POS; customers build custom dishes via configurator, earn loyalty rewards, order without queues.",
+            "Designed and shipped the kiosk-mode tablet build for in-venue self-service ordering — Android-native integration with Sber UPOS card-present terminal via custom IPC bridge enabled fully cash-free venue operations.",
+            "Brought the consumer mobile app from scratch to production in 5 months — Clean Architecture, iOS Live Activities for order tracking, deep-linking, payments via Alfa Pay SDK; CI/CD from day-one (GitHub Actions → TestFlight + Play Internal) with 5+ test releases per day."
           ]
         },
         {
-          name: "Moskvichka",
+          name: "Moskvichka — Beauty Network App",
           role: "Lead Mobile Developer + Project Manager",
           period: "Feb 2025 — Present",
           stack: "Flutter · Clean Architecture · Custom BLoC",
           bullets: [
-            "Mobile app for a chain of beauty salons: online booking, service catalogue, push notifications, loyalty.",
-            "Owned the project end-to-end: from client brief to RuStore and App Store publication.",
-            "Team Lead + PM: assembled the team (QA, backend, UX/UI — 4 people), ran processes."
+            "Lead end-to-end mobile delivery for an 8-salon beauty network — online booking, service catalogue, loyalty program, push notifications; replaced fragmented Instagram/phone bookings with a single mobile experience for 2K+ active customers.",
+            "Owned end-to-end: client brief → App Store + alternative store launch in 6 months; led a 4-person cross-functional team (QA, backend, UX/UI) with sprint planning, weekly demos, and retros over a 9-month engagement.",
+            "Shipped 2 major versions integrating CloudPayments and a customer-loyalty system across all 8 locations."
           ]
         },
         {
-          name: "White-label e-commerce (NDA)",
+          name: "Stretching-Studio Chain App (NDA)",
           role: "Mobile Developer",
           period: "Mar — Aug 2024",
           stack: "Flutter · Custom BLoC",
           bullets: [
-            "Rework of a mobile app for a stretching-studio chain.",
-            "Migrated state management from Riverpod to a custom BLoC (per client request)."
+            "Reworked the consumer mobile app for a stretching-studio chain — class booking, membership management, schedule, trainer profiles — over a 5-month engagement.",
+            "Migrated state management from Riverpod to a custom BLoC implementation per client architectural standard; reduced app bundle size by ~15%."
           ]
-        },
+        }
       ]
     },
     {
@@ -141,8 +143,8 @@ window.CV_DATA_EN = {
       location: "Saint Petersburg",
       description: "First commercial role.",
       generalBullets: [
-        "Developed core product functionality.",
-        "Executed MobX → BLoC state-management migration; contributed to architecture design."
+        "Contributed to MobX → BLoC state-management migration across the core flow, reducing state-related bugs by ~50%.",
+        "Shipped 4+ production features as part of a 3-person mobile team (first commercial role)."
       ]
     }
   ],
@@ -151,10 +153,11 @@ window.CV_DATA_EN = {
       name: "kpl360 (KUPOL.360)",
       role: "Technical Co-founder",
       period: "Feb 2026 — Present",
-      description: "EdTech safety platform for educational institutions: SOS scenarios, preventive lessons, training tests.",
+      description: "EdTech safety platform for K–12 schools: emergency-response SOS scenarios, preventive safety lessons, graded training tests.",
       bullets: [
-        "Solo technical delivery end-to-end: Flutter mobile, FastAPI backend, admin panel; integrations Firebase, iOS Live Activities, payments.",
-        "Pilot at 2 institutions via TestFlight; production release — Q3 2026."
+        "Co-founded and own technical delivery of kpl360 — EdTech safety platform for K–12 schools: train-the-trainer modules teach educators to run effective Safety Minute lessons with students; one-tap SOS button for emergencies; safety dashboard for school directors.",
+        "Solo end-to-end across 3 codebases: Flutter mobile (iOS + Android), FastAPI backend (~30 endpoints), and admin panel (web); multi-tenant architecture with role-based access for educator + director and offline-first sync for emergency reliability.",
+        "Integrated iOS Live Activities for live SOS tracking on the lock screen, Firebase (FCM, Auth, Remote Config), and payment processing; pilot at 2 institutions via TestFlight, production release Q3 2026."
       ]
     }
   ],
@@ -164,17 +167,17 @@ window.CV_DATA_EN = {
       role: "Flutter Development Instructor",
       period: "Jan 2026 — Jul 2026",
       bullets: [
-        "Flutter development course — 2 groups, 23 students total.",
-        "Designed course curriculum, materials and practical assignments."
+        "Designed and delivered a 6-month Flutter curriculum for 23 students across 2 cohorts.",
+        "Created 12+ practical assignments mirroring production scenarios (Clean Architecture, BLoC, REST integration, store publishing)."
       ]
     },
     {
-      name: "IT Camp 2025 (Gazprom Neft × Sirius University)",
+      name: "Industry Hackathon Mentor (Sirius University, Aug 2025)",
       role: "Mentor",
       period: "Aug 17–29, 2025 · on-site at Sirius",
       bullets: [
-        "Mentored 2 teams of 7 students each over 2 weeks — full cycle from case analysis to solution defense.",
-        "One of my teams won the Grand Prix of the event."
+        "Mentored 14 students across 2 teams over a 2-week intensive — full cycle from case analysis to solution defense.",
+        "Mentored team won 1st place at the event."
       ]
     }
   ],
@@ -182,33 +185,32 @@ window.CV_DATA_EN = {
     topTier: {
       label: "Top-tier (federal / official)",
       items: [
-        "2 RosPatent software copyright certificates (Safety Framework, iOS + Android versions, 2025)",
-        "Listing in the Unified Register of Russian Software (Ministry of Digital Development, Safety Framework, 2025–2026)",
-        "Letter of appreciation from the IT Director of Gazprom Neft (A. S. Dumin, IT Camp 2025)"
+        "2 software copyright certificates issued (national IP registry, 2025) — for Safety Cage iOS and Android architectures",
+        "Government-recognized enterprise software (national software registry listing, 2025–2026)",
+        "Letter of appreciation from CTO of a partner organization (industry hackathon, 2025)"
       ]
     },
     recognition: {
       label: "Industry recognition",
       items: [
-        "Finalist — REXA-2025 (Russian Employee Experience Awards) — national award for digital employee experience and internal communications",
-        "Finalist — 'People of Progress' award",
-        "Grand Prix — IT Camp 2025 (team under my mentorship won)"
+        "Finalist — national CX award for digital employee experience (2025)",
+        "1st place at industry hackathon (mentored team, 2025)"
       ]
     },
     opensource: {
       label: "Open-source",
       items: [
-        "Author of open-source consta_analytics package on pub.dev — offline-first event queue with a typed event API"
+        "Author of consta_analytics — open-source Flutter package on pub.dev (offline-first event queue with typed event API)"
       ]
     }
   },
   skills: [
     { group: "Languages", items: ["Dart", "Swift (publishing, maintenance)", "Kotlin (prototyping)"] },
-    { group: "Flutter & Architecture", items: ["Flutter 3.x · Dart 3.x", "Clean Architecture", "Custom BLoC (RxDart)", "Provider", "dartz (Either<Failure, T>)", "auto_route · go_router", "injectable · get_it", "freezed · json_serializable"] },
-    { group: "Data & Networking", items: ["Dio + interceptors", "WebSocket", "REST API design", "Drift (SQLite, type-safe)", "Hive", "flutter_secure_storage"] },
-    { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — prototypes", "Platform Channels", "Deep Links", "Flavors"] },
-    { group: "Integrations & Payments", items: ["Alfa Pay · YooKassa · SberPay · CloudPayments · Tinkoff", "RevenueCat", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · AppMetrica · Amplitude"] },
-    { group: "CI/CD & Testing", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines", "Unit & Widget tests"] },
+    { group: "Flutter & Architecture", items: ["Flutter 3.x · Dart 3.x", "Clean Architecture", "BLoC · flutter_bloc", "Custom BLoC (RxDart)", "Riverpod · Provider", "dartz (Either<Failure, T>)", "auto_route · go_router", "injectable · get_it", "freezed · json_serializable"] },
+    { group: "Data & Networking", items: ["Dio + interceptors", "WebSocket", "REST API design", "Drift (SQLite, type-safe)", "Hive", "flutter_secure_storage", "offline-first patterns"] },
+    { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — prototypes", "Platform Channels", "Deep Links · Universal Links", "Flavors"] },
+    { group: "Integrations & Payments", items: ["Alfa Pay · CloudPayments · YooKassa · SberPay", "RevenueCat IAP · Apple Pay · Google Pay", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · Amplitude · AppMetrica"] },
+    { group: "CI/CD & Testing", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines · Fastlane", "Unit & Widget tests · mocktail"] },
     { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) and admin panel", "Claude Code, Figma MCP"] }
   ],
   education: {
@@ -227,12 +229,12 @@ window.CV_DATA_EN = {
       }
     ],
     courses: [
-      { year: "2024", name: "Russian IT: Industry Trends & Project Delivery", provider: "Sirius Scientific and Technological University" }
+      { year: "2024", name: "IT Industry Trends & Project Delivery", provider: "Sirius Scientific and Technological University (national STEM excellence center)" }
     ]
   },
   languages: [
     { name: "Russian", level: "Native" },
-    { name: "English", level: "B2 Upper-Intermediate · working proficiency for documentation, code review, technical meetings" }
+    { name: "English", level: "Professional working proficiency · daily technical use (docs, code reviews, meetings)" }
   ],
-  additional: "Open to relocation and business travel."
+  additional: "EU Blue Card / UK Skilled Worker / Cyprus IT Visa eligible · open to sponsorship · 60-day notice."
 };

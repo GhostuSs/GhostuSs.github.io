@@ -12,9 +12,18 @@ const PDF_EXTRA_CSS = `
   #section-experience .exp:nth-of-type(3) { display: none !important; }
 
   /* Extra tight spacing */
-  .section { margin-bottom: 5pt !important; }
+  .section { margin-bottom: 4pt !important; }
   .projects { gap: 3pt !important; }
   .project { padding: 3pt 5pt !important; }
+  .section-head { margin-bottom: 2pt !important; padding-bottom: 1pt !important; }
+  .ach-group { margin-bottom: 2pt !important; }
+  .ach-list li { margin-bottom: 0.5pt !important; }
+  .skills-grid { gap: 2pt !important; }
+  .skill-group { padding: 2pt 4pt !important; }
+  .edu-list { gap: 3pt !important; }
+  .edu-item { padding: 2pt 6pt !important; }
+  .lang-list li { margin-bottom: 0 !important; }
+  .additional-block { display: none !important; }
 `;
 
 async function generate(lang) {
