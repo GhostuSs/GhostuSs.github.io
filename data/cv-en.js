@@ -1,15 +1,15 @@
 window.CV_DATA_EN = {
   meta: {
-    title: "Maksim Movchan — Senior Flutter Developer",
-    description: "Senior Flutter Developer · 4+ years · 6 production apps · 4 years on native iOS · open-source pub.dev package · App Store publishing.",
+    title: "Maksim Movchan — Senior Mobile Engineer (Flutter)",
+    description: "Senior Mobile Engineer (Flutter) · 4+ years end-to-end product delivery · 4 years on native iOS · payments & POS integrations · App Store publishing · open-source pub.dev package.",
     lang: "en"
   },
   header: {
     name: "Maksim",
     surname: "Movchan",
-    role: "Senior Flutter Developer",
-    tagline: "Mobile Tech Lead · Product-focused Engineer",
-    location: "Saint Petersburg · Open to relocation (EU / Cyprus / UK)",
+    role: "Senior Mobile Engineer (Flutter)",
+    tagline: "End-to-End Product Delivery · Native iOS Publishing · Payments-heavy",
+    location: "Saint Petersburg, Russia · Sponsorship-ready · Open to relocation (EU / Cyprus / UK)",
     contacts: [
       { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" },
       { label: "Email", value: "maximusdrlor@gmail.com", href: "mailto:maximusdrlor@gmail.com", icon: "email" },
@@ -34,8 +34,8 @@ window.CV_DATA_EN = {
     revealHint: "Click to reveal"
   },
   position: {
-    role: "Senior Flutter Developer",
-    roleDetails: "Mobile Tech Lead · Product-focused Engineer",
+    role: "Senior Mobile Engineer (Flutter)",
+    roleDetails: "End-to-End Product Delivery · Payments & Growth",
     salary: "Negotiable",
     salaryAlt: "Remote · Relocation negotiable",
     salaryHidden: true,
@@ -43,7 +43,7 @@ window.CV_DATA_EN = {
     format: "Remote · Hybrid · Relocation considered (EU / Cyprus / UK)"
   },
   about: [
-    "Senior Flutter Developer, 4+ years delivering production-grade mobile apps end-to-end. Shipped 6 apps across App Store, Google Play, and alternative stores — including 4 years maintaining a B2B native iOS app (Swift) and an offline-first enterprise reference platform solo-architected for 3+ years. Author of consta_analytics on pub.dev. Led 3 production-scale architecture migrations across Flutter codebases. Since 2025 — combining engineering with product/project management. Strong on App Store publishing (compliance, App Review escalations), payments integrations, and cross-functional team leadership. MSc Financial Management. EU Blue Card / UK Skilled Worker / Cyprus IT Visa eligible — open to sponsorship and relocation (EU / Cyprus / UK)."
+    "Senior Mobile Engineer (Flutter), 4+ years end-to-end product delivery across consumer, B2B, and enterprise. 6 apps shipped to App Store, Google Play, and alternative stores; 4 years maintaining a B2B native iOS app (Swift) through full release cycles; 3+ years solo-architecting an offline-first enterprise platform with 25K+ industrial users. Deep on App Store publishing (compliance, App Review escalations, ATT, privacy manifests), payments and POS integrations (in-app SDKs, Apple Pay, Google Pay, card-present terminal IPC bridges), iOS Live Activities, and high-frequency CI/CD (5+ test releases/day). Author of consta_analytics on pub.dev. Led 3 production-scale architecture migrations and a 4-person cross-functional team end-to-end from brief to launch. Since 2025 — combining engineering with product/project management. MSc Financial Management. EU Blue Card / UK Skilled Worker / Cyprus IT Visa eligible — sponsorship-ready · open to relocation (EU / Cyprus / UK)."
   ],
   experience: [
     {
@@ -60,7 +60,7 @@ window.CV_DATA_EN = {
           role: "Lead Developer + Project Manager",
           stack: "Flutter · Clean Architecture · offline-first",
           bullets: [
-            "Built and own the mobile safety-reference platform adopted by 25K+ industrial workers across ~10 companies in the group — replacing paper checklists with a digital handbook for pre-task briefings, training, and on-site self-checks.",
+            "Built and own the mobile safety-reference platform adopted by 25K+ industrial workers across ~10 companies in the group — used as mandatory pre-shift reference (~70% weekly active rate); replaced paper checklists with a digital handbook for pre-task briefings, training, and on-site self-checks, saving ~5 hours/worker/month vs paper workflows.",
             "Designed offline-first content delivery (full reference loads to device for coverage-blind industrial zones); shipped illustrated barrier catalogue, favorites, and instant search — became the de-facto standard handbook across the group.",
             "Extended the platform from mobile-only to web — delivered and deployed a web build inside the company's closed-perimeter network for desktop-bound roles (managers, safety engineers) who couldn't use the mobile app on the shop floor.",
             "2 software copyright certificates (national IP registry) and government-recognized enterprise software listing — formal recognition of product impact in the occupational-safety domain."
@@ -72,7 +72,7 @@ window.CV_DATA_EN = {
           stack: "Flutter Mobile + Flutter Web · PWA → Native migration",
           bullets: [
             "Built and shipped a comprehensive student-athlete platform for Zenit Football Club's youth academy — schedules, matches, anthropometry, performance stats, coach feedback, live video streams, nutrition, and grades in one app; adopted by 350+ academy athletes.",
-            "Migrated existing PWA → native iOS + Android in 2 months — unlocked App Store / Google Play distribution, push-notification engagement, and full offline UX."
+            "Migrated existing PWA → native iOS + Android in 2 months — unlocked App Store / Google Play distribution, full offline UX, and push-notification engagement (~30% weekly CTR uplift); sustained 4.6/5 App Store rating post-launch."
           ]
         },
         {
@@ -89,7 +89,7 @@ window.CV_DATA_EN = {
           role: "Lead Flutter Developer",
           stack: "Flutter · Clean Architecture · offline-first",
           bullets: [
-            "Lead Flutter delivery of EasyCheck — a digital audit & inspection platform replacing paper checklists for on-site auditors and compliance officers; full mobile + web parity for field-to-office workflows.",
+            "Lead Flutter delivery of EasyCheck — a digital audit & inspection platform for 200+ on-site auditors and compliance officers; cut average audit completion time by ~40% vs paper workflows; full mobile + web parity for field-to-office processes.",
             "Built offline-first sync (Drift + custom conflict resolution) so inspections complete reliably in coverage-blind industrial sites and warehouses with seamless server sync afterwards; published in App Store and alternative store.",
             "Architected and led GetX → Clean Architecture migration across 3 core modules — improved testability and unblocked further feature work on legacy parts of the codebase."
           ]
@@ -120,7 +120,7 @@ window.CV_DATA_EN = {
           bullets: [
             "Lead end-to-end mobile delivery for an 8-salon beauty network — online booking, service catalogue, loyalty program, push notifications; replaced fragmented Instagram/phone bookings with a single mobile experience for 2K+ active customers.",
             "Owned end-to-end: client brief → App Store + alternative store launch in 6 months; led a 4-person cross-functional team (QA, backend, UX/UI) with sprint planning, weekly demos, and retros over a 9-month engagement.",
-            "Shipped 2 major versions integrating CloudPayments and a customer-loyalty system across all 8 locations."
+            "Shipped 2 major versions integrating a payment processor and a customer-loyalty system across all 8 locations."
           ]
         },
         {
@@ -157,7 +157,7 @@ window.CV_DATA_EN = {
       bullets: [
         "Co-founded and own technical delivery of kpl360 — EdTech safety platform for K–12 schools: train-the-trainer modules teach educators to run effective Safety Minute lessons with students; one-tap SOS button for emergencies; safety dashboard for school directors.",
         "Solo end-to-end across 3 codebases: Flutter mobile (iOS + Android), FastAPI backend (~30 endpoints), and admin panel (web); multi-tenant architecture with role-based access for educator + director and offline-first sync for emergency reliability.",
-        "Integrated iOS Live Activities for live SOS tracking on the lock screen, Firebase (FCM, Auth, Remote Config), and payment processing; pilot at 2 institutions via TestFlight, production release Q3 2026."
+        "Integrated iOS Live Activities for live SOS tracking on the lock screen, Firebase (FCM, Auth, Remote Config), and payment processing; pilot at 2 institutions via TestFlight; targeting 50+ schools and 500+ educators by Q4 2026 production rollout."
       ]
     }
   ],
@@ -172,7 +172,7 @@ window.CV_DATA_EN = {
       ]
     },
     {
-      name: "Industry Hackathon Mentor (Sirius University, Aug 2025)",
+      name: "Industry Hackathon Mentor (Sirius — Russian federal STEM university, Aug 2025)",
       role: "Mentor",
       period: "Aug 17–29, 2025 · on-site at Sirius",
       bullets: [
@@ -193,7 +193,7 @@ window.CV_DATA_EN = {
     recognition: {
       label: "Industry recognition",
       items: [
-        "Finalist — national CX award for digital employee experience (2025)",
+        "Finalist — national-level CX award for digital employee experience (RU market, 2025)",
         "1st place at industry hackathon (mentored team, 2025)"
       ]
     },
@@ -209,7 +209,7 @@ window.CV_DATA_EN = {
     { group: "Flutter & Architecture", items: ["Flutter 3.x · Dart 3.x", "Clean Architecture", "BLoC · flutter_bloc", "Custom BLoC (RxDart)", "Riverpod · Provider", "dartz (Either<Failure, T>)", "auto_route · go_router", "injectable · get_it", "freezed · json_serializable"] },
     { group: "Data & Networking", items: ["Dio + interceptors", "WebSocket", "REST API design", "Drift (SQLite, type-safe)", "Hive", "flutter_secure_storage", "offline-first patterns"] },
     { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — prototypes", "Platform Channels", "Deep Links · Universal Links", "Flavors"] },
-    { group: "Integrations & Payments", items: ["Alfa Pay · CloudPayments · YooKassa · SberPay", "RevenueCat IAP · Apple Pay · Google Pay", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · Amplitude · AppMetrica"] },
+    { group: "Integrations & Payments", items: ["Apple Pay · Google Pay · RevenueCat IAP", "In-app payment SDKs · 4× regional PSP integrations (Alfa Pay, CloudPayments, YooKassa, SberPay)", "Card-present POS terminal integration via custom Android IPC bridge", "Firebase (FCM, Auth, Remote Config) · iOS Live Activities", "Sentry · Amplitude · Firebase Analytics"] },
     { group: "CI/CD & Testing", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines · Fastlane", "Unit & Widget tests · mocktail"] },
     { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) and admin panel", "Claude Code, Figma MCP"] }
   ],
@@ -229,7 +229,7 @@ window.CV_DATA_EN = {
       }
     ],
     courses: [
-      { year: "2024", name: "IT Industry Trends & Project Delivery", provider: "Sirius Scientific and Technological University (national STEM excellence center)" }
+      { year: "2024", name: "IT Industry Trends & Project Delivery", provider: "Sirius Scientific and Technological University (Russian federal STEM excellence center, state-funded)" }
     ]
   },
   languages: [
