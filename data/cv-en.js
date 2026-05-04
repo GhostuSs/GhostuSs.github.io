@@ -1,7 +1,7 @@
 window.CV_DATA_EN = {
   meta: {
     title: "Maksim Movchan — Senior Flutter Developer",
-    description: "Senior Flutter Developer · 4+ years · 6 production apps · 25K+ users · open-source pub.dev package · 200+ zero-rollback iOS releases · App Store publishing.",
+    description: "Senior Flutter Developer · 4+ years · 6 production apps · 4 years on native iOS · open-source pub.dev package · App Store publishing.",
     lang: "en"
   },
   header: {
@@ -43,17 +43,16 @@ window.CV_DATA_EN = {
     format: "Remote · Hybrid · Relocation considered (EU / Cyprus / UK)"
   },
   about: [
-    "Senior Flutter Developer, 4+ years delivering production-grade mobile apps end-to-end. Shipped 6 apps with 25K+ combined active users — including a B2B native iOS app through 200+ zero-rollback releases over 4 years and an offline-first enterprise reference app solo-architected for 3+ years. Author of consta_analytics on pub.dev. Led 3 production-scale architecture migrations, cut new-dev onboarding from 2 weeks to 3 days and crash rate to <0.5%. Since 2025 — combining engineering with product/project management. Strong on payments (Alfa Pay, CloudPayments, Apple/Google Pay), App Store publishing, and cross-functional team leadership. MSc Financial Management. EU Blue Card / UK Skilled Worker / Cyprus IT Visa eligible — open to sponsorship and relocation (EU / Cyprus / UK)."
+    "Senior Flutter Developer, 4+ years delivering production-grade mobile apps end-to-end. Shipped 6 apps across App Store, Google Play, and alternative stores — including 4 years maintaining a B2B native iOS app (Swift) and an offline-first enterprise reference platform solo-architected for 3+ years. Author of consta_analytics on pub.dev. Led 3 production-scale architecture migrations across Flutter codebases. Since 2025 — combining engineering with product/project management. Strong on App Store publishing (compliance, App Review escalations), payments integrations, and cross-functional team leadership. MSc Financial Management. EU Blue Card / UK Skilled Worker / Cyprus IT Visa eligible — open to sponsorship and relocation (EU / Cyprus / UK)."
   ],
   experience: [
     {
-      company: "Punklab Digital Studio · internal IT subsidiary, energy-sector group",
+      company: "Punklab Digital Studio · internal IT subsidiary",
       role: "Flutter Developer",
       period: "Feb 2022 — Present",
       duration: "4+ years",
       generalBullets: [
-        "Joined as the 5th engineer in 2022; mobile org scaled to 28 people over 4 years.",
-        "Since 2025 — combined Developer + Project Manager role on a key team product."
+        "Since 2025 — combined Developer + Project Manager role on a key team product (Safety Cage)."
       ],
       projects: [
         {
@@ -63,16 +62,17 @@ window.CV_DATA_EN = {
           bullets: [
             "Built and own the mobile safety-reference platform adopted by 25K+ industrial workers across ~10 companies in the group — replacing paper checklists with a digital handbook for pre-task briefings, training, and on-site self-checks.",
             "Designed offline-first content delivery (full reference loads to device for coverage-blind industrial zones); shipped illustrated barrier catalogue, favorites, and instant search — became the de-facto standard handbook across the group.",
+            "Extended the platform from mobile-only to web — delivered and deployed a web build inside the company's closed-perimeter network for desktop-bound roles (managers, safety engineers) who couldn't use the mobile app on the shop floor.",
             "2 software copyright certificates (national IP registry) and government-recognized enterprise software listing — formal recognition of product impact in the occupational-safety domain."
           ]
         },
         {
-          name: "Sports Academy — Student-Athlete Platform",
+          name: "Sports Academy — Student-Athlete Platform (Zenit FC youth academy)",
           role: "Lead Flutter Developer",
           stack: "Flutter Mobile + Flutter Web · PWA → Native migration",
           bullets: [
-            "Built and shipped a comprehensive student-athlete platform for a football academy — schedules, matches, anthropometry, performance stats, coach feedback, live video streams, nutrition, and grades in one app; adopted by 350+ academy athletes.",
-            "Migrated existing PWA → native iOS + Android in 4 months — unlocked App Store / Google Play distribution, push-notification engagement, and full offline UX; reduced crash rate from ~2% to <0.4% post-launch."
+            "Built and shipped a comprehensive student-athlete platform for Zenit Football Club's youth academy — schedules, matches, anthropometry, performance stats, coach feedback, live video streams, nutrition, and grades in one app; adopted by 350+ academy athletes.",
+            "Migrated existing PWA → native iOS + Android in 2 months — unlocked App Store / Google Play distribution, push-notification engagement, and full offline UX."
           ]
         },
         {
@@ -81,8 +81,7 @@ window.CV_DATA_EN = {
           stack: "Native iOS (Swift) · compliance-driven publishing",
           bullets: [
             "Maintain the iOS app of a B2B procurement marketplace — contractors post tenders, partners bid and submit proposals; iOS surface adopted by 1K+ business users with sustained 4.2/5 rating across 4 years.",
-            "Shipped 200+ iOS releases (~1 release/week) over 4 years with zero rollbacks; owned the full App Store release cycle — provisioning, signing, App Review escalations, 2024 ATT and privacy-manifest compliance.",
-            "Dual-published the product across 2 app stores under separate branding — sustained 4+ years of cross-store version parity with synchronized releases."
+            "Over 4 months — resolved every Apple App Review guideline blocker on a previously rejected build, reworked product concept and UX, and successfully shipped to the App Store; owned the full release cycle afterwards (provisioning, signing, escalations, 2024 ATT and privacy-manifest compliance)."
           ]
         },
         {
@@ -92,7 +91,7 @@ window.CV_DATA_EN = {
           bullets: [
             "Lead Flutter delivery of EasyCheck — a digital audit & inspection platform replacing paper checklists for on-site auditors and compliance officers; full mobile + web parity for field-to-office workflows.",
             "Built offline-first sync (Drift + custom conflict resolution) so inspections complete reliably in coverage-blind industrial sites and warehouses with seamless server sync afterwards; published in App Store and alternative store.",
-            "Architected and led GetX → Clean Architecture migration across 3 modules — cut new-developer onboarding from 2 weeks to 3 days and feature delivery time by ~30%."
+            "Architected and led GetX → Clean Architecture migration across 3 core modules — improved testability and unblocked further feature work on legacy parts of the codebase."
           ]
         }
       ]
@@ -109,8 +108,8 @@ window.CV_DATA_EN = {
           stack: "Flutter · Drift · Swift · Kotlin",
           bullets: [
             "Solo-delivered Surprise — cashier-less restaurant product where mobile + tablet kiosks fully replace physical POS; customers build custom dishes via configurator, earn loyalty rewards, order without queues.",
-            "Designed and shipped the kiosk-mode tablet build for in-venue self-service ordering — Android-native integration with Sber UPOS card-present terminal via custom IPC bridge enabled fully cash-free venue operations.",
-            "Brought the consumer mobile app from scratch to production in 5 months — Clean Architecture, iOS Live Activities for order tracking, deep-linking, payments via Alfa Pay SDK; CI/CD from day-one (GitHub Actions → TestFlight + Play Internal) with 5+ test releases per day."
+            "Designed and shipped the kiosk-mode tablet build for in-venue self-service ordering — Android-native integration with a card-present POS terminal via custom IPC bridge enabled fully cash-free venue operations.",
+            "Brought the consumer mobile app from scratch to production in 5 months — Clean Architecture, iOS Live Activities for order tracking, deep-linking, in-app payments SDK integration; CI/CD from day-one (GitHub Actions → TestFlight + Play Internal) with 5+ test releases per day."
           ]
         },
         {
@@ -131,7 +130,8 @@ window.CV_DATA_EN = {
           stack: "Flutter · Custom BLoC",
           bullets: [
             "Reworked the consumer mobile app for a stretching-studio chain — class booking, membership management, schedule, trainer profiles — over a 5-month engagement.",
-            "Migrated state management from Riverpod to a custom BLoC implementation per client architectural standard; reduced app bundle size by ~15%."
+            "Migrated state management from Riverpod to a custom BLoC implementation per client architectural standard; reduced app bundle size by ~15%.",
+            "Drove a stability sprint on the existing build — diagnosed and fixed top crash sources, bringing crash rate from ~60% down to ~25%."
           ]
         }
       ]

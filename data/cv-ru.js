@@ -1,7 +1,7 @@
 window.CV_DATA_RU = {
   meta: {
     title: "Максим Мовчан — Senior Flutter Developer",
-    description: "Senior Flutter Developer · 4+ года · 6 продуктов в сторах · 25K+ пользователей · open-source пакет на pub.dev · публикации в App Store на native iOS.",
+    description: "Senior Flutter Developer · 4+ года · 6 продуктов в сторах · open-source пакет на pub.dev · публикации в App Store на native iOS.",
     lang: "ru"
   },
   header: {
@@ -43,17 +43,16 @@ window.CV_DATA_RU = {
     format: "Удалённо · Гибрид · Релокация рассматривается (EU / Кипр / UK)"
   },
   about: [
-    "Senior Flutter-разработчик, 4+ года в продакшене. 6 мобильных приложений в App Store, Google Play и альтернативных сторах с суммарной аудиторией 25K+ активных пользователей. Open-source пакет на pub.dev. Сильные стороны: Clean Architecture, performance (<0.5% crash rate), product impact. С 2025 совмещаю разработку и проектный менеджмент. Опыт публикации в App Store, интеграции платежей и кросс-функциональной командной работы."
+    "Senior Flutter-разработчик, 4+ года в продакшене. 6 мобильных приложений в App Store, Google Play и альтернативных сторах — включая 4 года поддержки B2B-приложения на native iOS (Swift) и offline-first enterprise-платформы, которую спроектировал и веду 3+ года. Open-source пакет на pub.dev. Сильные стороны: Clean Architecture, App Store publishing (compliance, App Review escalations), product impact. С 2025 совмещаю разработку и проектный менеджмент. Опыт интеграции платежей и кросс-функциональной командной работы."
   ],
   experience: [
     {
-      company: "Punklab Digital Studio · IT-подразделение энергетической группы",
+      company: "Punklab Digital Studio · внутреннее IT-подразделение",
       role: "Flutter-разработчик",
       period: "Февраль 2022 — настоящее время",
       duration: "4+ года",
       generalBullets: [
-        "Пришёл в команду 5-м в 2022; команда выросла до 28 человек за 4 года.",
-        "С 2025 — совмещение ролей разработчика и PM на ключевом продукте команды."
+        "С 2025 — совмещение ролей разработчика и PM на ключевом продукте команды (Каркас Безопасности)."
       ],
       projects: [
         {
@@ -62,16 +61,17 @@ window.CV_DATA_RU = {
           stack: "Flutter · Clean Architecture · offline-first",
           bullets: [
             "Спроектировал и единолично разрабатываю offline-first enterprise-приложение 3+ года; вырос до 25K+ активных пользователей при <0.5% crash rate.",
+            "Расширил платформу с mobile-only на web — спроектировал и развернул web-сборку в закрытом контуре корпоративной сети для desktop-ролей (руководители, специалисты по ОТ), которым неудобно использовать мобильное приложение в цеху.",
             "2 свидетельства о государственной регистрации программы для ЭВМ (национальный реестр IP); продукт зарегистрирован как enterprise-ПО в государственном реестре."
           ]
         },
         {
-          name: "Личный кабинет воспитанника спортивной академии",
+          name: "Личный кабинет воспитанника спортивной академии (ФК «Зенит»)",
           role: "Lead Flutter Developer",
           stack: "Flutter Mobile + Flutter Web · PWA → Native migration",
           bullets: [
-            "Возглавил миграцию Flutter Web PWA на нативные платформы (iOS + Android) за 4 месяца; публикация в App Store и Google Play.",
-            "Улучшил D7 retention через редизайн онбординга и push-кампании; снизил crash rate до <0.4% через систематический рефакторинг."
+            "Возглавил миграцию Flutter Web PWA на нативные платформы (iOS + Android) за 2 месяца для академии ФК «Зенит»; публикация в App Store и Google Play.",
+            "Улучшил D7 retention через редизайн онбординга и push-кампании."
           ]
         },
         {
@@ -79,9 +79,8 @@ window.CV_DATA_RU = {
           role: "iOS Maintainer + App Store Publishing Expert",
           stack: "Native iOS (Swift) · compliance-driven publishing",
           bullets: [
-            "Поддерживаю native iOS B2B-приложение через 200+ релизов (~1 релиз/неделя) за 4 года без откатов; рейтинг 4.2/5 при 1K+ business users.",
-            "Полный релизный цикл: provisioning, signing, App Review escalation, privacy manifest compliance (2024).",
-            "Реализовал dual-publishing strategy (App Store + альтернативный стор) с раздельным брендингом."
+            "Поддерживаю native iOS B2B-приложение 4 года; рейтинг 4.2/5 при 1K+ business users.",
+            "За 4 месяца отработал все блокеры App Review guide на ранее заблокированной сборке, переработал концепцию и UX продукта и успешно вывел приложение в сторы; дальше веду полный релизный цикл (provisioning, signing, escalation, privacy manifest compliance 2024)."
           ]
         },
         {
@@ -89,7 +88,7 @@ window.CV_DATA_RU = {
           role: "Lead Flutter Developer",
           stack: "Flutter · Clean Architecture",
           bullets: [
-            "Спроектировал целевую архитектуру и провёл миграцию GetX → Clean Architecture в 3 модулях; время онбординга новых разработчиков сократилось с 2 недель до 3 дней.",
+            "Спроектировал целевую архитектуру и провёл миграцию GetX → Clean Architecture в 3 ключевых модулях; повысил тестируемость и разблокировал дальнейшую работу по легаси-частям кодовой базы.",
             "Реализовал offline-first sync layer (Drift + кастомное разрешение конфликтов); публикация в App Store и альтернативный стор."
           ]
         }
@@ -123,13 +122,14 @@ window.CV_DATA_RU = {
           ]
         },
         {
-          name: "White-label e-commerce (NDA)",
+          name: "Сеть студий растяжки (NDA)",
           role: "Mobile Developer",
           period: "Март — август 2024",
           stack: "Flutter · Custom BLoC",
           bullets: [
             "Переработка мобильного приложения для сети студий растяжки.",
-            "Миграция с Riverpod на custom BLoC (по требованию заказчика)."
+            "Миграция с Riverpod на custom BLoC (по требованию заказчика).",
+            "Провёл стабилизационный спринт по существующей сборке — диагностировал и устранил топ-источники крашей, снизив crash rate с ~60% до ~25%."
           ]
         }
       ]
