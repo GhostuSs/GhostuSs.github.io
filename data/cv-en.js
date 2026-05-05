@@ -131,7 +131,7 @@ window.CV_DATA_EN = {
           bullets: [
             "Reworked the consumer mobile app for a stretching-studio chain — class booking, membership management, schedule, trainer profiles — over a 5-month engagement.",
             "Migrated state management from Riverpod to a custom BLoC implementation per client architectural standard; reduced app bundle size by ~15%.",
-            "Drove a stability sprint on the existing build — diagnosed and fixed top crash sources, bringing crash rate from ~60% down to ~25%."
+            "Drove a stability sprint on the inherited build — diagnosed and fixed top crash sources, lifting crash-free users from ~40% to ~75% over the engagement."
           ]
         }
       ]
@@ -151,10 +151,11 @@ window.CV_DATA_EN = {
   ownProducts: [
     {
       name: "kpl360 (KUPOL.360)",
-      role: "Technical Co-founder",
+      role: "Technical Co-founder (side project)",
       period: "Feb 2026 — Present",
       description: "EdTech safety platform for K–12 schools: emergency-response SOS scenarios, preventive safety lessons, graded training tests.",
       bullets: [
+        "Side project alongside primary mobile engineering work — seeking full-time engineering role as main commitment; kpl360 continues with co-founder ownership and external contributors.",
         "Co-founded and own technical delivery of kpl360 — EdTech safety platform for K–12 schools: train-the-trainer modules teach educators to run effective Safety Minute lessons with students; one-tap SOS button for emergencies; safety dashboard for school directors.",
         "Solo end-to-end across 3 codebases: Flutter mobile (iOS + Android), FastAPI backend (~30 endpoints), and admin panel (web); multi-tenant architecture with role-based access for educator + director and offline-first sync for emergency reliability.",
         "Integrated iOS Live Activities for live SOS tracking on the lock screen, Firebase (FCM, Auth, Remote Config), and payment processing; pilot at 2 institutions (1 high school) via TestFlight with 150+ educators onboarded; production launch Q3 2026."
