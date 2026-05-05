@@ -67,12 +67,12 @@ window.CV_DATA_EN = {
           ]
         },
         {
-          name: "Sports Academy — Student-Athlete Platform (Zenit FC youth academy)",
+          name: "Zenit FC Youth Academy App",
           role: "Lead Flutter Developer",
-          stack: "Flutter Mobile + Flutter Web · PWA → Native migration",
+          stack: "Flutter Mobile + Flutter Web · PWA → Mobile migration",
           bullets: [
             "Built and shipped a comprehensive student-athlete platform for Zenit Football Club's youth academy — schedules, matches, anthropometry, performance stats, coach feedback, live video streams, nutrition, and grades in one app; adopted by 350+ academy athletes.",
-            "Migrated existing PWA → native iOS + Android in 2 months — unlocked App Store / Google Play distribution, full offline UX, and push-notification engagement (~30% weekly CTR uplift); sustained 4.6/5 App Store rating post-launch."
+            "Migrated existing PWA → native iOS + Android in 2 months — unlocked App Store / Google Play distribution, full offline UX, and push notifications boosting weekly app opens by ~30%; sustained 4.6/5 App Store rating post-launch."
           ]
         },
         {
@@ -157,7 +157,7 @@ window.CV_DATA_EN = {
       bullets: [
         "Co-founded and own technical delivery of kpl360 — EdTech safety platform for K–12 schools: train-the-trainer modules teach educators to run effective Safety Minute lessons with students; one-tap SOS button for emergencies; safety dashboard for school directors.",
         "Solo end-to-end across 3 codebases: Flutter mobile (iOS + Android), FastAPI backend (~30 endpoints), and admin panel (web); multi-tenant architecture with role-based access for educator + director and offline-first sync for emergency reliability.",
-        "Integrated iOS Live Activities for live SOS tracking on the lock screen, Firebase (FCM, Auth, Remote Config), and payment processing; pilot at 2 institutions via TestFlight; targeting 50+ schools and 500+ educators by Q4 2026 production rollout."
+        "Integrated iOS Live Activities for live SOS tracking on the lock screen, Firebase (FCM, Auth, Remote Config), and payment processing; pilot at 2 institutions (1 high school) via TestFlight with 150+ educators onboarded; production launch Q3 2026."
       ]
     }
   ],
