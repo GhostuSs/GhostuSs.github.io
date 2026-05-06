@@ -9,14 +9,14 @@ window.CV_DATA_EN = {
     surname: "Movchan",
     role: "Senior Mobile Engineer (Flutter)",
     tagline: "End-to-End Product Delivery · Native iOS Publishing · Payments-heavy",
-    location: "Saint Petersburg, Russia · Sponsorship-ready · Open to relocation (EU / Cyprus / UK)",
+    location: "Open to relocation: EU / Cyprus / UK · Sponsorship-ready · Available within 60 days",
     contacts: [
-      { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" },
       { label: "Email", value: "maximusdrlor@gmail.com", href: "mailto:maximusdrlor@gmail.com", icon: "email" },
-      { label: "Phone", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
-      { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
       { label: "LinkedIn", value: "Maksim Movchan", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" },
-      { label: "Website", value: "ghostuss.github.io", href: "https://ghostuss.github.io", icon: "globe" }
+      { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
+      { label: "Website", value: "ghostuss.github.io", href: "https://ghostuss.github.io", icon: "globe" },
+      { label: "Phone", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
+      { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" }
     ]
   },
   sections: {
@@ -173,7 +173,7 @@ window.CV_DATA_EN = {
       ]
     },
     {
-      name: "Industry Hackathon Mentor (Sirius — Russian federal STEM university, Aug 2025)",
+      name: "Industry Hackathon Mentor (Sirius University, Aug 2025)",
       role: "Mentor",
       period: "Aug 17–29, 2025 · on-site at Sirius",
       bullets: [
@@ -194,7 +194,7 @@ window.CV_DATA_EN = {
     recognition: {
       label: "Industry recognition",
       items: [
-        "Finalist — national-level CX award for digital employee experience (RU market, 2025)",
+        "Finalist — national CX award for digital employee experience (2025)",
         "1st place at industry hackathon (mentored team, 2025)"
       ]
     },
@@ -230,7 +230,7 @@ window.CV_DATA_EN = {
       }
     ],
     courses: [
-      { year: "2024", name: "IT Industry Trends & Project Delivery", provider: "Sirius Scientific and Technological University (Russian federal STEM excellence center, state-funded)" }
+      { year: "2024", name: "IT Industry Trends & Project Delivery", provider: "Sirius Scientific and Technological University (national STEM excellence center)" }
     ]
   },
   languages: [
