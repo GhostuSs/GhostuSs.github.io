@@ -17,7 +17,7 @@
 
   // ---------- STATE ----------
   const state = {
-    lang: 'ru',
+    lang: 'en',
     data: null
   };
 

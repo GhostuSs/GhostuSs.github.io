@@ -43,7 +43,7 @@ window.CV_DATA_EN = {
     format: "Remote · Hybrid · Relocation considered (EU / Cyprus / UK)"
   },
   about: [
-    "Senior Mobile Engineer (Flutter), 4+ years end-to-end product delivery across consumer, B2B, and enterprise. 6 apps shipped to App Store, Google Play, and alternative stores; 4 years maintaining a B2B native iOS app (Swift) through full release cycles; 3+ years solo-architecting an offline-first enterprise platform with 25K+ industrial users. Deep on App Store publishing (compliance, App Review escalations, ATT, privacy manifests), payments and POS integrations (in-app SDKs, Apple Pay, Google Pay, card-present terminal IPC bridges), iOS Live Activities, and high-frequency CI/CD (5+ test releases/day). Author of consta_analytics on pub.dev. Led 3 production-scale architecture migrations and a 4-person cross-functional team end-to-end from brief to launch. Since 2025 — combining engineering with product/project management. MSc Financial Management. EU Blue Card / UK Skilled Worker / Cyprus IT Visa eligible — sponsorship-ready · open to relocation (EU / Cyprus / UK)."
+    "Senior Mobile Engineer (Flutter), 4+ years and 6 production apps across consumer, B2B, and enterprise — including 4 years on native iOS (Swift) and a solo-built offline-first platform used by 25K+ industrial users. Deep on payments (Apple/Google Pay, in-app SDKs, card-present POS), compliance-driven App Store publishing, and Clean Architecture; ship with AI-assisted workflows (Claude Code, Figma MCP) and high-frequency CI/CD (5+ test releases/day). MSc Financial Management; author of an open-source Flutter package on pub.dev. Open to EU relocation and remote (CET±3) — EU Blue Card / Cyprus IT Visa eligible."
   ],
   experience: [
     {
@@ -234,8 +234,8 @@ window.CV_DATA_EN = {
     ]
   },
   languages: [
-    { name: "Russian", level: "Native" },
-    { name: "English", level: "Professional working proficiency · daily technical use (docs, code reviews, meetings)" }
+    { name: "Russian", level: "Native (C2)" },
+    { name: "English", level: "B2–C1 (CEFR) · daily technical use (docs, code reviews, meetings)" }
   ],
   additional: "EU Blue Card / UK Skilled Worker / Cyprus IT Visa eligible · open to sponsorship · 60-day notice."
 };
