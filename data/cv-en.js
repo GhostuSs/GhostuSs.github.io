@@ -63,7 +63,7 @@ window.CV_DATA_EN = {
             "Built and own the mobile safety-reference platform adopted by 25K+ industrial workers across ~10 companies in the group — used as mandatory pre-shift reference (~70% weekly active rate); replaced paper checklists with a digital handbook for pre-task briefings, training, and on-site self-checks, saving ~5 hours/worker/month vs paper workflows.",
             "Designed offline-first content delivery (full reference loads to device for coverage-blind industrial zones); shipped illustrated barrier catalogue, favorites, and instant search — became the de-facto standard handbook across the group.",
             "Extended the platform from mobile-only to web — delivered and deployed a web build inside the company's closed-perimeter network for desktop-bound roles (managers, safety engineers) who couldn't use the mobile app on the shop floor.",
-            "2 software copyright certificates (national IP registry) and government-recognized enterprise software listing — formal recognition of product impact in the occupational-safety domain."
+            "2 IP copyright certificates (2025) for iOS and Android architectures — formal recognition of product impact in the occupational-safety domain."
           ]
         },
         {
@@ -90,7 +90,7 @@ window.CV_DATA_EN = {
           stack: "Flutter · Clean Architecture · offline-first",
           bullets: [
             "Lead Flutter delivery of EasyCheck — a digital audit & inspection platform for 200+ on-site auditors and compliance officers; cut average audit completion time by ~40% vs paper workflows; full mobile + web parity for field-to-office processes.",
-            "Built offline-first sync (Drift + custom conflict resolution) so inspections complete reliably in coverage-blind industrial sites and warehouses with seamless server sync afterwards; published in App Store and alternative store.",
+            "Built offline-first sync (Drift + custom conflict resolution) so inspections complete reliably in coverage-blind industrial sites and warehouses with seamless server sync afterwards; published in App Store and enterprise distribution channel.",
             "Architected and led GetX → Clean Architecture migration across 3 core modules — improved testability and unblocked further feature work on legacy parts of the codebase."
           ]
         }
@@ -173,9 +173,9 @@ window.CV_DATA_EN = {
       ]
     },
     {
-      name: "Industry Hackathon Mentor (Sirius University, Aug 2025)",
+      name: "Industry Hackathon Mentor (engineering excellence center, Aug 2025)",
       role: "Mentor",
-      period: "Aug 17–29, 2025 · on-site at Sirius",
+      period: "Aug 17–29, 2025",
       bullets: [
         "Mentored 14 students across 2 teams over a 2-week intensive — full cycle from case analysis to solution defense.",
         "Mentored team won 1st place at the event."
@@ -186,15 +186,14 @@ window.CV_DATA_EN = {
     topTier: {
       label: "Top-tier (federal / official)",
       items: [
-        "2 software copyright certificates issued (national IP registry, 2025) — for Safety Cage iOS and Android architectures",
-        "Government-recognized enterprise software (national software registry listing, 2025–2026)",
+        "2 IP copyright certificates issued (2025) — for Safety Cage iOS and Android architectures",
         "Letter of appreciation from CTO of a partner organization (industry hackathon, 2025)"
       ]
     },
     recognition: {
       label: "Industry recognition",
       items: [
-        "Finalist — national CX award for digital employee experience (2025)",
+        "Finalist — industry CX award for digital employee experience (2025)",
         "1st place at industry hackathon (mentored team, 2025)"
       ]
     },
@@ -210,7 +209,7 @@ window.CV_DATA_EN = {
     { group: "Flutter & Architecture", items: ["Flutter 3.x · Dart 3.x", "Clean Architecture", "BLoC · flutter_bloc", "Custom BLoC (RxDart)", "Riverpod · Provider", "dartz (Either<Failure, T>)", "auto_route · go_router", "injectable · get_it", "freezed · json_serializable"] },
     { group: "Data & Networking", items: ["Dio + interceptors", "WebSocket", "REST API design", "Drift (SQLite, type-safe)", "Hive", "flutter_secure_storage", "offline-first patterns"] },
     { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — prototypes", "Platform Channels", "Deep Links · Universal Links", "Flavors"] },
-    { group: "Integrations & Payments", items: ["Apple Pay · Google Pay · RevenueCat IAP", "In-app payment SDKs · 4× regional PSP integrations (Alfa Pay, CloudPayments, YooKassa, SberPay)", "Card-present POS terminal integration via custom Android IPC bridge", "Firebase (FCM, Auth, Remote Config) · iOS Live Activities", "Sentry · Amplitude · Firebase Analytics"] },
+    { group: "Integrations & Payments", items: ["Apple Pay · Google Pay · RevenueCat IAP", "In-app payment SDKs · 4× PSP integrations (card-not-present, digital wallets, subscription billing)", "Card-present POS terminal integration via custom Android IPC bridge", "Firebase (FCM, Auth, Remote Config) · iOS Live Activities", "Sentry · Amplitude · Firebase Analytics"] },
     { group: "CI/CD & Testing", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines · Fastlane", "Unit & Widget tests · mocktail"] },
     { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) and admin panel", "Claude Code, Figma MCP"] }
   ],
@@ -230,7 +229,7 @@ window.CV_DATA_EN = {
       }
     ],
     courses: [
-      { year: "2024", name: "IT Industry Trends & Project Delivery", provider: "Sirius Scientific and Technological University (national STEM excellence center)" }
+      { year: "2024", name: "IT Industry Trends & Project Delivery", provider: "National Engineering Excellence Center" }
     ]
   },
   languages: [
