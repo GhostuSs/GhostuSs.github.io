@@ -15,7 +15,6 @@ window.CV_DATA_EN = {
       { label: "LinkedIn", value: "Maksim Movchan", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
       { label: "Website", value: "ghostuss.github.io", href: "https://ghostuss.github.io", icon: "globe" },
-      { label: "Phone", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" }
     ]
   },

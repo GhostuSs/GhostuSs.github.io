@@ -13,7 +13,6 @@ window.CV_DATA_RU = {
     contacts: [
       { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" },
       { label: "Email", value: "maximusdrlor@gmail.com", href: "mailto:maximusdrlor@gmail.com", icon: "email" },
-      { label: "Телефон", value: "+7 (981) 711-39-42", href: "tel:+79817113942", icon: "phone" },
       { label: "GitHub", value: "GhostuSs", href: "https://github.com/GhostuSs", icon: "github" },
       { label: "LinkedIn", value: "Максим Мовчан", href: "https://www.linkedin.com/in/maximmovchan/", icon: "linkedin" },
       { label: "Website", value: "ghostuss.github.io", href: "https://ghostuss.github.io", icon: "globe" }
