@@ -1,14 +1,14 @@
 window.CV_DATA_RU = {
   meta: {
-    title: "Максим Мовчан — Flutter-разработчик · Mobile & Full-stack",
-    description: "Flutter-разработчик, 4+ года в продакшене. 6 приложений в App Store, Google Play и RuStore, native iOS (Swift), 2 свидетельства Роспатента, реестр российского ПО. Full-stack: FastAPI, Telegram-боты, DevOps.",
+    title: "Максим Мовчан — Flutter-разработчик · Head of IT",
+    description: "Flutter-разработчик и Head of IT ресторанной платформы Surprise. 4+ года в продакшене, 7 приложений в App Store, Google Play и RuStore, native iOS (Swift), 2 свидетельства Роспатента. Full-stack: Go, FastAPI, React, DevOps.",
     lang: "ru"
   },
   header: {
     name: "Мовчан Максим",
     surname: "Игоревич",
-    role: "Flutter-разработчик · Mobile & Full-stack",
-    tagline: "Мобильная и full-stack разработка · продуктовое владение",
+    role: "Flutter-разработчик · Head of IT",
+    tagline: "Mobile · Full-stack (Go / FastAPI) · техническое руководство продуктом",
     location: "Санкт-Петербург · удалённо / гибрид / офис",
     contacts: [
       { label: "Telegram", value: "@MaximMovchan", href: "https://t.me/MaximMovchan", icon: "telegram" },
@@ -32,8 +32,8 @@ window.CV_DATA_RU = {
     revealHint: "Нажмите, чтобы раскрыть"
   },
   position: {
-    role: "Flutter-разработчик · Mobile & Full-stack",
-    roleDetails: "Mobile Engineering · Product Ownership",
+    role: "Flutter-разработчик · Tech Lead / Head of IT",
+    roleDetails: "Mobile Engineering · Full-stack · Technical Leadership",
     salary: "По договорённости",
     salaryAlt: "",
     salaryHidden: false,
@@ -41,9 +41,23 @@ window.CV_DATA_RU = {
     format: "Удалённо · гибрид · офис (Санкт-Петербург)"
   },
   about: [
-    "Flutter-разработчик, 4+ года в продакшене. 6 мобильных приложений в App Store, Google Play и RuStore — включая 4 года поддержки B2B-приложения на native iOS (Swift) и offline-first enterprise-платформу, которую спроектировал и веду 3+ года (25K+ пользователей, <0.5% crash rate). 2 свидетельства Роспатента о госрегистрации ПО, запись в реестре российского ПО. Работаю не только на мобильном фронте: пишу бэкенд (FastAPI / Python), поднимаю CI/CD и деплой (Docker, nginx). С 2025 совмещаю разработку и проектный менеджмент — веду команды, общаюсь с заказчиком, оцениваю и защищаю проекты. Сильные стороны: Clean Architecture, публикация в сторах (в т.ч. снятие блокеров App Review), интеграция платежей, доведение продукта от брифа до релиза."
+    "Flutter-разработчик, 4+ года в продакшене. 7 мобильных приложений в App Store, Google Play и RuStore — включая 4 года поддержки B2B-приложения на native iOS (Swift) и offline-first enterprise-платформу, которую спроектировал и веду 3+ года (25K+ пользователей, <0.5% crash rate). 2 свидетельства Роспатента о госрегистрации ПО, запись в реестре российского ПО. С декабря 2025 — Head of IT ресторана без касс Surprise: мобильное приложение и киоски самообслуживания на Flutter, бэкенд на Go, React-админка, инфраструктура и платёжные интеграции — всё под моей ответственностью. Пишу бэкенд (Go, FastAPI), поднимаю CI/CD и деплой (Docker, nginx/Caddy). С 2025 совмещаю разработку и проектный менеджмент — веду команды, общаюсь с заказчиком, оцениваю и защищаю проекты. Сильные стороны: Clean Architecture, платёжные контуры без потери денег, публикация в сторах (в т.ч. снятие блокеров App Review), доведение продукта от брифа до релиза."
   ],
   experience: [
+    {
+      company: "Surprise · ресторан без касс (FoodTech)",
+      role: "Head of IT · Lead Flutter Developer",
+      period: "Декабрь 2025 — настоящее время",
+      description: "Отвечаю за всю техническую часть продукта: мобильное приложение, киоски самообслуживания в зале, бэкенд, админка, инфраструктура и интеграции с кассой и платежами. Ресторан открылся в августе 2026 и работает без кассиров: гость заказывает в приложении или на киоске, платит картой, СБП или терминалом, заказ уходит на кухню в iiko. Через приложение и киоски прошли тысячи заказов.",
+      generalBullets: [
+        "Приложение и киоск из одной Flutter-кодовой базы (4 флейвора mobile/kiosk × dev/prod): конструктор блюд, лояльность с уровнями кэшбэка, iOS Live Activities со статусом заказа, пуши с картинками, deep links со столиков (QR → заказ к столу, Play Install Referrer), умные апсейлы, доставка курьером. App Store, Google Play, RuStore; 280+ сборок, 81K строк Dart, 200 файлов unit- и e2e-тестов в CI, ~60% коммитов репозитория — мои.",
+        "Киоск самообслуживания: Android Lock Task / Device Owner, нативная (Kotlin) интеграция с платёжным терминалом Сбера по TCP-протоколу пинпада, СБП по QR, чеки 54-ФЗ.",
+        "Спроектировал и написал новый бэкенд на Go (fiber, pgx, PostgreSQL master/replica) взамен Laravel/Bagisto: 150+ эндпоинтов, 70+ миграций, Swagger, 110K строк, 140 файлов тестов; перевёл прод и приложение на него за ~2 месяца без остановки ресторана. Stateless-корзина с серверным пересчётом, SSE-канал версии меню, идемпотентное создание заказа.",
+        "Платёжный контур «без потери денег по построению»: идемпотентность по checkout_uid, «оплачен = подтвердил шлюз или журнал терминала», сторожа-кроны, которые каждую минуту сшивают платежи с заказами и досылают на кухню; аварийные пути восстанавливаются за ≤60–120 с.",
+        "Интеграции: iiko Cloud (кухня/КДС), CloudPayments (карты, сохранённые карты, СБП) + CloudKassir, терминал Сбера, REDSMS, FCM/APNs, AppMetrica, Яндекс Object Storage. React 19 + TypeScript админка: живая лента заказов, меню и стоп-листы, клиенты и бонусы, пуш-рассылки, RBAC с журналом, сопоставление с кассой.",
+        "Инфраструктура и процессы: zero-downtime деплой (GitHub Actions → GHCR → rolling replace за Caddy), дев-стенд как копия прода, переезд прода в Selectel с резервом в Yandex Cloud, аудит безопасности, реестр рисков. База знаний проекта: 400+ заметок, 67 постмортемов, 23 runbook'а, 35 ADR, реестр из 220+ «мин». Координировал до 5 Flutter-разработчиков одновременно и подрядчиков (бэкенд, интегратор iiko)."
+      ]
+    },
     {
       company: "Punklab Digital Studio · корпоративная digital-студия",
       role: "Flutter-разработчик",
@@ -97,17 +111,6 @@ window.CV_DATA_RU = {
       role: "Flutter Developer · Full-stack",
       period: "Март 2024 — настоящее время",
       projects: [
-        {
-          name: "Surprise — FoodTech + e-commerce",
-          role: "Solo Flutter Developer",
-          period: "Декабрь 2025 — май 2026",
-          stack: "Flutter · Drift · Swift · Kotlin · Bagisto",
-          bullets: [
-            "Единолично довёл потребительское приложение доставки готовых блюд от нуля до релиза за 5 месяцев: Clean Architecture, iOS Live Activities, deep-linking, эквайринг Альфа-банка.",
-            "Реализовал recovery-layer для эквайринга (устойчивость платежей к обрывам и рассинхрону сохранённых карт) и HLS-оптимизацию видео каталога (240p/480p/720p, авто-триггер на загрузку).",
-            "Собрал kiosk-ветку для HoReCa: Android-нативная интеграция с платёжным терминалом через кастомный IPC-bridge (research-прототип). Поднял CI/CD с первого дня (GitHub Actions → TestFlight + Play Internal)."
-          ]
-        },
         {
           name: "Москвичка — сеть салонов красоты",
           role: "Lead Mobile Developer + Project Manager",
@@ -200,13 +203,13 @@ window.CV_DATA_RU = {
     }
   },
   skills: [
-    { group: "Языки", items: ["Dart", "Swift (publishing, maintenance)", "Python", "Kotlin (prototyping)"] },
+    { group: "Языки", items: ["Dart", "Go", "Swift (publishing, maintenance)", "Python", "Kotlin (native bridges)", "TypeScript"] },
     { group: "Flutter & Архитектура", items: ["Flutter 3.x · Dart 3.x", "Clean Architecture", "BLoC · flutter_bloc", "Custom BLoC (RxDart)", "Riverpod · Provider", "dartz (Either<Failure, T>)", "auto_route · go_router", "injectable · get_it", "freezed · json_serializable"] },
     { group: "Данные и сеть", items: ["Dio + interceptors", "WebSocket", "REST API design", "Drift (SQLite, type-safe)", "Hive", "flutter_secure_storage", "offline-first patterns"] },
     { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — прототипы", "Platform Channels", "Deep Links · Universal Links", "Flavors"] },
-    { group: "Интеграции и платежи", items: ["Альфа-банк · CloudPayments · YooKassa · SberPay", "RevenueCat IAP · Apple Pay · Google Pay", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · Amplitude · AppMetrica"] },
-    { group: "Backend", items: ["FastAPI / Python", "SQLAlchemy · MongoDB · PostgreSQL", "Celery · Redis · S3", "REST API design"] },
-    { group: "DevOps & CI/CD", items: ["Docker · Docker Compose", "nginx · Let's Encrypt / certbot", "Linux VPS", "GitHub Actions · Bitbucket Pipelines · Codemagic · Fastlane", "Unit & Widget tests · mocktail"] }
+    { group: "Интеграции и платежи", items: ["CloudPayments · СБП · Альфа-банк · YooKassa · SberPay", "Платёжный терминал Сбера (пинпад, TCP) · чеки 54-ФЗ", "iiko Cloud (POS/КДС)", "RevenueCat IAP · Apple Pay · Google Pay", "Firebase (FCM, Auth, Remote Config)", "iOS Live Activities", "Sentry · Amplitude · AppMetrica"] },
+    { group: "Backend", items: ["Go (fiber, pgx, goose)", "FastAPI / Python", "PostgreSQL (master/replica) · SQLAlchemy · MongoDB", "Celery · Redis · S3 / Object Storage", "REST API design · Swagger/OpenAPI · SSE", "React 19 + TypeScript (админки)"] },
+    { group: "DevOps & CI/CD", items: ["Docker · Docker Compose · zero-downtime rollout (GHCR)", "nginx · Caddy · Let's Encrypt / certbot", "Linux VPS · Selectel · Yandex Cloud", "GitHub Actions · Bitbucket Pipelines · Codemagic · Fastlane", "Unit & Widget & E2E tests · mocktail · integration_test"] }
   ],
   education: {
     degrees: [

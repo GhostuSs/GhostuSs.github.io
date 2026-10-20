@@ -8,8 +8,8 @@ const path = require('path');
 
 // Extra CSS injected only during PDF generation — hides more to fit 2 pages
 const PDF_EXTRA_CSS = `
-  /* Hide MCArt experience entirely (3rd .exp in #section-experience) */
-  #section-experience .exp:nth-of-type(3) { display: none !important; }
+  /* Hide MCArt experience entirely (4th .exp in #section-experience) */
+  #section-experience .exp:nth-of-type(4) { display: none !important; }
 
   /* Extra tight spacing */
   .section { margin-bottom: 4pt !important; }
@@ -24,6 +24,13 @@ const PDF_EXTRA_CSS = `
   .edu-item { padding: 2pt 6pt !important; }
   .lang-list li { margin-bottom: 0 !important; }
   .additional-block { display: none !important; }
+
+  /* Surprise (1st .exp): show 4 bullets instead of 2 */
+  #section-experience .exp:first-of-type > .bullets > li:nth-child(-n+4) { display: list-item !important; }
+  /* Save space: hide NDA stretching project (2nd project of 3rd .exp), Punklab general line and courses */
+  #section-experience .exp:nth-of-type(3) .project:nth-of-type(2) { display: none !important; }
+  #section-experience .exp:nth-of-type(2) > .bullets { display: none !important; }
+  .edu-courses { display: none !important; }
 `;
 
 async function generate(lang) {

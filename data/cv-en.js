@@ -1,14 +1,14 @@
 window.CV_DATA_EN = {
   meta: {
     title: "Maksim Movchan — Senior Mobile Engineer (Flutter)",
-    description: "Senior Mobile Engineer (Flutter) · 4+ years end-to-end product delivery · 4 years on native iOS · payments & POS integrations · App Store publishing · open-source pub.dev package.",
+    description: "Senior Mobile Engineer (Flutter) & Head of IT · 4+ years end-to-end product delivery · Go/FastAPI backends · payments & POS integrations · App Store publishing · open-source pub.dev package.",
     lang: "en"
   },
   header: {
     name: "Maksim",
     surname: "Movchan",
     role: "Senior Mobile Engineer (Flutter)",
-    tagline: "End-to-End Product Delivery · Native iOS Publishing · Payments-heavy",
+    tagline: "Head of IT at a cashier-less restaurant · End-to-End Product Delivery · Payments-heavy",
     location: "Open to relocation: EU / Cyprus / UK · Sponsorship-ready · Available within 60 days",
     contacts: [
       { label: "Email", value: "maximusdrlor@gmail.com", href: "mailto:maximusdrlor@gmail.com", icon: "email" },
@@ -42,9 +42,23 @@ window.CV_DATA_EN = {
     format: "Remote · Hybrid · Relocation considered (EU / Cyprus / UK)"
   },
   about: [
-    "Senior Mobile Engineer (Flutter), 4+ years and 6 production apps across consumer, B2B, and enterprise — including 4 years on native iOS (Swift) and a solo-built offline-first platform used by 25K+ industrial users. Deep on payments (Apple/Google Pay, in-app SDKs, card-present POS), compliance-driven App Store publishing, and Clean Architecture; ship with AI-assisted workflows (Claude Code, Figma MCP) and high-frequency CI/CD (5+ test releases/day). MSc Financial Management; author of an open-source Flutter package on pub.dev. Open to EU relocation and remote (CET±3) — EU Blue Card / Cyprus IT Visa eligible."
+    "Senior Mobile Engineer (Flutter), 4+ years and 6 production apps across consumer, B2B, and enterprise — including 4 years on native iOS (Swift) and a solo-built offline-first platform used by 25K+ industrial users. Since Dec 2025 — Head of IT at a cashier-less restaurant startup: Flutter app + self-service kiosks, Go backend, React admin, infrastructure and POS/payment integrations. Deep on payments (Apple/Google Pay, in-app SDKs, card-present POS, QR instant payments), compliance-driven App Store publishing, and Clean Architecture; ship with AI-assisted workflows (Claude Code, Figma MCP) and high-frequency CI/CD (5+ test releases/day). MSc Financial Management; author of an open-source Flutter package on pub.dev. Open to EU relocation and remote (CET±3) — EU Blue Card / Cyprus IT Visa eligible."
   ],
   experience: [
+    {
+      company: "Surprise · Cashier-less Restaurant Platform (FoodTech)",
+      role: "Head of IT · Lead Flutter Engineer",
+      period: "Dec 2025 — Present",
+      description: "Own the entire technology side of a cashier-less restaurant: consumer mobile app, in-venue self-service kiosks, Go backend, React admin, infrastructure and POS/payment integrations. The venue opened in Aug 2026 and runs with no cashiers — guests order in the app or at a kiosk, pay by card, QR or terminal, and the order goes straight to the kitchen display. Thousands of orders processed.",
+      generalBullets: [
+        "Mobile app and kiosk from one Flutter codebase (4 flavors: mobile/kiosk × dev/prod): dish configurator, tiered cashback loyalty, iOS Live Activities for order status, rich push, table deep links (QR → order to table, Play Install Referrer), smart upsells, courier delivery. Published on App Store and Google Play; 280+ builds, 81K lines of Dart, 200 unit/e2e test files in CI, ~60% of repository commits.",
+        "Self-service kiosk: Android Lock Task / Device Owner, native Kotlin integration with a card-present POS terminal over the pin-pad TCP protocol, QR instant payments, fiscal receipts.",
+        "Designed and built the new Go backend (fiber, pgx, PostgreSQL primary/replica) replacing a Laravel monolith: 150+ endpoints, 70+ migrations, Swagger, 110K lines, 140 test files; migrated production and the app in ~2 months with zero venue downtime. Stateless cart with server-side pricing, SSE menu-version channel, idempotent order creation.",
+        "Payment contour that cannot lose money by construction: idempotent checkout_uid, “paid = the gateway or terminal journal says so”, minute-level reconciliation workers that link payments to orders and resend to the kitchen; recovery paths complete in ≤60–120 s.",
+        "Integrations: POS/kitchen display system, payment gateway (cards, saved cards, QR) with fiscal receipts, SMS OTP, FCM/APNs, product analytics, S3 object storage. React 19 + TypeScript admin: live order feed, menu and stop-lists, customers and bonuses, push campaigns, RBAC with audit log, POS mapping.",
+        "Infrastructure and process: zero-downtime deploys (GitHub Actions → GHCR → rolling replace behind Caddy), prod-mirror staging, cloud migration with warm standby, security audit, risk register. Project knowledge base of 400+ notes (67 post-mortems, 23 runbooks, 35 ADRs). Coordinated up to 5 Flutter developers at a time plus external contractors (backend, POS integrator)."
+      ]
+    },
     {
       company: "Punklab Digital Studio · internal IT subsidiary",
       role: "Flutter Developer",
@@ -100,17 +114,6 @@ window.CV_DATA_EN = {
       role: "Senior Flutter Developer",
       period: "Mar 2024 — Present",
       projects: [
-        {
-          name: "Surprise — Digital-First Restaurant App",
-          role: "Senior Solo Flutter Developer",
-          period: "Dec 2025 — May 2026",
-          stack: "Flutter · Drift · Swift · Kotlin",
-          bullets: [
-            "Solo-delivered Surprise — cashier-less restaurant product where mobile + tablet kiosks fully replace physical POS; customers build custom dishes via configurator, earn loyalty rewards, order without queues.",
-            "Designed and shipped the kiosk-mode tablet build for in-venue self-service ordering — Android-native integration with a card-present POS terminal via custom IPC bridge enabled fully cash-free venue operations.",
-            "Brought the consumer mobile app from scratch to production in 5 months — Clean Architecture, iOS Live Activities for order tracking, deep-linking, in-app payments SDK integration; CI/CD from day-one (GitHub Actions → TestFlight + Play Internal) with 5+ test releases per day."
-          ]
-        },
         {
           name: "Moskvichka — Beauty Network App",
           role: "Lead Mobile Developer + Project Manager",
@@ -204,13 +207,13 @@ window.CV_DATA_EN = {
     }
   },
   skills: [
-    { group: "Languages", items: ["Dart", "Swift (publishing, maintenance)", "Kotlin (prototyping)"] },
+    { group: "Languages", items: ["Dart", "Go", "Swift (publishing, maintenance)", "Kotlin (native bridges)", "Python", "TypeScript"] },
     { group: "Flutter & Architecture", items: ["Flutter 3.x · Dart 3.x", "Clean Architecture", "BLoC · flutter_bloc", "Custom BLoC (RxDart)", "Riverpod · Provider", "dartz (Either<Failure, T>)", "auto_route · go_router", "injectable · get_it", "freezed · json_serializable"] },
     { group: "Data & Networking", items: ["Dio + interceptors", "WebSocket", "REST API design", "Drift (SQLite, type-safe)", "Hive", "flutter_secure_storage", "offline-first patterns"] },
     { group: "Native & Platform", items: ["iOS Native (Swift) — App Store publishing", "Android Native (Kotlin) — prototypes", "Platform Channels", "Deep Links · Universal Links", "Flavors"] },
     { group: "Integrations & Payments", items: ["Apple Pay · Google Pay · RevenueCat IAP", "In-app payment SDKs · 4× PSP integrations (card-not-present, digital wallets, subscription billing)", "Card-present POS terminal integration via custom Android IPC bridge", "Firebase (FCM, Auth, Remote Config) · iOS Live Activities", "Sentry · Amplitude · Firebase Analytics"] },
     { group: "CI/CD & Testing", items: ["Codemagic · GitHub Actions · Bitbucket Pipelines · Fastlane", "Unit & Widget tests · mocktail"] },
-    { group: "Full-stack (AI-assisted)", items: ["End-to-end delivery: backend (FastAPI / Python) and admin panel", "Claude Code, Figma MCP"] }
+    { group: "Full-stack & Infra (AI-assisted)", items: ["Go backend (fiber, pgx, PostgreSQL primary/replica, Swagger, SSE)", "FastAPI / Python · React 19 + TypeScript admin", "Docker · zero-downtime rollout (GHCR) · Caddy / nginx", "Claude Code, Figma MCP"] }
   ],
   education: {
     degrees: [
